@@ -48,3 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
+# ignore test media
+test_media/*
+
