@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1243.0, 954.0 ],
+		"rect" : [ 34.0, 87.0, 1246.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -47,7 +47,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 544.0, 885.0, 87.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -4289,9 +4289,19 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1146.0, 187.0, 73.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "u292003155",
+							"parameter_shortname" : "u292003155",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
 						"client_rect" : [ 100, 100, 1265, 600 ],
-						"parameter_enable" : 0,
+						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 200, 200, 800, 500 ]
 					}
@@ -5986,6 +5996,7 @@
 			"obj-59" : [ "invert_X", "invert_X", 0 ],
 			"obj-60" : [ "invert_Y", "invert_Y", 0 ],
 			"obj-67" : [ "audio_toggle", "audio_toggle", 0 ],
+			"obj-9" : [ "u292003155", "u292003155", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
