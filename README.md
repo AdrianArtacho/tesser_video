@@ -1,29 +1,25 @@
-# README #
+# Tesser_video
 
-This README would normally document whatever steps are necessary to get your application up and running.
+This devide does video and image operations, has parameters accessible via midi, and paths and other configurations via clip names.
 
-### What is this repository for? ###
+---
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Loading slides
 
-### How do I get set up? ###
+Use the clip name. There are 2 slots for slides, each with a transparency slider that can be controlled via midi as well. The following example loads an image to the slot 1:
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+`slide1 "Macintosh HD:/Users/artacho/Desktop/Herschel Project/slides/Herschel - TITLE.png"`
 
-### Contribution guidelines ###
+The next one will load an image onto the second slot:
 
-* Writing tests
-* Code review
-* Other guidelines
+`slide2 "Macintosh HD:/Users/artacho/Desktop/Herschel Project/slides/planeten11.png"`
 
-### Who do I talk to? ###
+The transparency can be controlled using CC. The specific CC numbers can be stored with the set (see `storage` button).
 
-* Repo owner or admin
-* Other community or team contact
+---
+
+### To-Do
+
+- Prettyfy interface
+
+- 
