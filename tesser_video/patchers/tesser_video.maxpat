@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -1289.0, 83.0, 1243.0, 929.0 ],
+		"rect" : [ 34.0, 87.0, 1243.0, 954.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,79 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"color" : [ 0.886274509803922, 0.0, 1.0, 1.0 ],
+					"id" : "obj-161",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 544.0, 885.0, 87.0, 22.0 ],
+					"restore" : [ 1.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0,
+						"parameter_mappable" : 0
+					}
+,
+					"text" : "pattr fullscreen",
+					"varname" : "fullscreen"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-160",
+					"maxclass" : "live.text",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 578.0, 921.0, 69.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 12.25, 120.5, 149.0, 18.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_linknames" : 1,
+							"parameter_longname" : "fullscreen_toggle",
+							"parameter_mmax" : 1,
+							"parameter_shortname" : "fullscreen_toggle",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "fullscreen",
+					"texton" : "fullscreen",
+					"varname" : "fullscreen_toggle"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-159",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 578.0, 1019.0, 77.0, 22.0 ],
+					"text" : "fullscreen $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-157",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 578.0, 973.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-155",
 					"maxclass" : "message",
@@ -1196,12 +1269,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 1656.0, 779.0, 300.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 329.0, 93.0, 800.0, 43.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "path_slide2",
+							"parameter_shortname" : "path_slide2",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"text" : "\"Macintosh HD:/Users/artacho/Documents/Max 8/Projects/tesserakt/tesser_video/test_media/herschel_troades_5.png\"",
-					"varname" : "textedit[2]"
+					"varname" : "path_slide2"
 				}
 
 			}
@@ -3715,12 +3798,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 741.0, 779.0, 300.0, 65.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 329.0, 51.0, 800.0, 40.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "path_slide1",
+							"parameter_shortname" : "path_slide1",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"text" : "\"Macintosh HD:/Users/artacho/Documents/Max 8/Projects/tesserakt/tesser_video/test_media/herschel_troades_5.png\"",
-					"varname" : "textedit[1]"
+					"varname" : "path_slide1"
 				}
 
 			}
@@ -4083,12 +4177,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 145.0, 517.0, 391.0, 59.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 329.0, 5.0, 800.0, 44.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "path_video",
+							"parameter_shortname" : "path_video",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"text" : "\"Macintosh HD:/Users/artacho/Documents/Max 8/Projects/tesserakt/tesser_video/test_media/Herschel_Experiment.mov\"",
-					"varname" : "textedit"
+					"varname" : "path_video"
 				}
 
 			}
@@ -5153,8 +5258,36 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-159", 0 ],
+					"source" : [ "obj-157", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-159", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-98", 0 ],
 					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-157", 0 ],
+					"source" : [ "obj-160", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-160", 0 ],
+					"source" : [ "obj-161", 1 ]
 				}
 
 			}
@@ -5837,13 +5970,17 @@
 		"parameters" : 		{
 			"obj-119" : [ "live.text[6]", "live.text[5]", 0 ],
 			"obj-122" : [ "live.text[7]", "live.text[4]", 0 ],
+			"obj-136" : [ "path_slide2", "path_slide2", 0 ],
 			"obj-15" : [ "live.text", "live.text", 0 ],
 			"obj-151" : [ "slide2_CC", "slide2_CC", 0 ],
+			"obj-160" : [ "fullscreen_toggle", "fullscreen_toggle", 0 ],
 			"obj-18" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-19" : [ "path_video", "path_video", 0 ],
 			"obj-28" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-31" : [ "live.text[4]", "live.text[4]", 0 ],
 			"obj-34" : [ "live.text[5]", "live.text[5]", 0 ],
 			"obj-36" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-4" : [ "path_slide1", "path_slide1", 0 ],
 			"obj-49" : [ "slide1_CC", "slide1_CC", 0 ],
 			"obj-55" : [ "stop video", "stop video", 0 ],
 			"obj-59" : [ "invert_X", "invert_X", 0 ],
@@ -5863,14 +6000,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "clipname.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/tesserakt/tesser_video/tesser_video/patchers",
+				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "frame_delay.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/tesserakt/tesser_video/tesser_video/patchers",
+				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
