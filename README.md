@@ -24,8 +24,6 @@ You may play a section of a loaded video (say between frames 2980 and 5000) by e
 
 > `frame 2980 5000`
 
-
-
 ---
 
 ### To-Do
