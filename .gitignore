@@ -50,4 +50,5 @@ Thumbs.db
 
 # ignore test media
 test_media/*
+test_device/test-set/*
 
