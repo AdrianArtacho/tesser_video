@@ -40,6 +40,36 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 22.5, 128.903228759765625, 480.5, 22.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 172.0, 75.0, 225.0, 35.0 ],
+					"text" : "\"EXTERN:/SIXMEMOS - 2023/1 Leggerezza/Memos _ Leggerezza.mp4\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 22.5, 103.0, 480.5, 22.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 172.0, 75.0, 225.0, 49.0 ],
+					"text" : "\"EXTERN:/SIXMEMOS - 2023/2 Rapidità/6Memos_2Rapidità_ICDS.mp4\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-6",
@@ -75,7 +105,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "signal", "signal", "jit_matrix", "" ],
-					"patching_rect" : [ 406.0, 60.0, 122.0, 22.0 ],
+					"patching_rect" : [ 406.0, 77.5, 122.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 406.0, 60.0, 122.0, 22.0 ],
 					"text" : "jit.movie~ @moviefile"
@@ -117,7 +147,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.0, 114.0, 80.0, 22.0 ],
+					"patching_rect" : [ 431.0, 46.5, 80.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 157.0, 114.0, 80.0, 22.0 ],
 					"text" : "prepend read"
@@ -131,7 +161,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 29.0, 29.5, 22.0 ],
+					"patching_rect" : [ 15.0, 18.0, 29.5, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 29.0, 29.5, 22.0 ],
 					"text" : "..."
@@ -146,7 +176,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 157.0, 29.0, 24.0, 24.0 ],
+					"patching_rect" : [ 157.0, 18.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 157.0, 29.0, 24.0, 24.0 ]
 				}
@@ -155,16 +185,16 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 157.0, 60.0, 225.0, 49.0 ],
+					"patching_rect" : [ 157.0, 46.5, 225.0, 35.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 157.0, 60.0, 225.0, 49.0 ],
-					"text" : "\"EXTERN:/SIXMEMOS - 2023/2 Rapidità/6Memos_2Rapidità_ICDS.mp4\""
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 157.0, 60.0, 225.0, 35.0 ],
+					"text" : "\"EXTERN:/SIXMEMOS - 2023/1 Leggerezza/Memos _ Leggerezza.mp4\""
 				}
 
 			}
@@ -176,7 +206,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 67.0, 29.0, 24.0, 24.0 ],
+					"patching_rect" : [ 67.0, 18.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.0, 29.0, 24.0, 24.0 ]
 				}
@@ -189,7 +219,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"patching_rect" : [ 67.0, 60.0, 67.0, 22.0 ],
+					"patching_rect" : [ 67.0, 49.0, 67.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 67.0, 60.0, 67.0, 22.0 ],
 					"text" : "opendialog"
@@ -228,6 +258,13 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-11", 0 ]
@@ -289,6 +326,13 @@
 					"destination" : [ "obj-7", 1 ],
 					"midpoints" : [ 76.5, 99.0, 372.5, 99.0 ],
 					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"source" : [ "obj-4", 0 ]
 				}
 
 			}

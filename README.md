@@ -28,10 +28,20 @@ You may play a section of a loaded video (say between frames 2980 and 5000) by e
 
 ### To-Do
 
+Fix `jit.window` name to something neutral
+
+sliders to zero on [thispatcher]
+
+Load video via Clip name usinf simply "video"
+
 - Prettyfy interface
 
-- Load video via Clip name as well
+- 
 
 - play without end boundary...
 
-- Change the `jit.window` name to something neutral
+- do not play a fey frames when loaded!
+
+- load AND play/stop in one clip
+  
+  
