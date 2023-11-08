@@ -100,7 +100,11 @@ stop video play when the set stops?
 
 master fade `CC90` that fades in/out smartly.
 
-- video repeat mode in a CC?
+> - 1A | 1C hin und her
+> 
+> - nach 1D stehen sliders nicht auf 0
+
+video repeat mode in a CC?
 
 - add the length of the frame instead of milliseconds, relative to the set tempo (bar, beat, etc.) which then get converted to milliseconds
 
@@ -109,3 +113,9 @@ master fade `CC90` that fades in/out smartly.
 - rename `herschel_jit_movie` message to something neutral
 
 - remove inherited `[frame_delay]` instances from herschel
+
+- what is the issue with `tesser_videoloop`? 
+
+- show slider values for debugging
+
+- remove ezdac

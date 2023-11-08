@@ -2,7 +2,7 @@
 	"name" : "tesser_video",
 	"version" : 1,
 	"creationdate" : 3779766031,
-	"modificationdate" : 3782229918,
+	"modificationdate" : 3782303710,
 	"viewrect" : [ -344.0, 429.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,6 +22,11 @@
 			}
 ,
 			"frame_delay.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"casuistic.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
