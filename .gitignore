@@ -51,4 +51,5 @@ Thumbs.db
 # ignore test media
 test_media/*
 test_device/test-set\ Project/*
+test_device/other/*
 
