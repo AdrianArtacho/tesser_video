@@ -2,7 +2,7 @@
 	"name" : "tesser_video",
 	"version" : 1,
 	"creationdate" : 3779766031,
-	"modificationdate" : 3782303710,
+	"modificationdate" : 3782559662,
 	"viewrect" : [ -344.0, 429.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,6 +16,11 @@
 				"toplevel" : 1
 			}
 ,
+			"casuistic.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"clipname.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -26,9 +31,14 @@
 				"local" : 1
 			}
 ,
-			"casuistic.maxpat" : 			{
+			"download-sheet.maxpat" : 			{
 				"kind" : "patcher",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/download-sheet",
+					"projectrelativepath" : "../download-sheet"
+				}
+
 			}
 
 		}

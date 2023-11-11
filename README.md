@@ -98,6 +98,42 @@ You may play a section of a loaded video (say 5 seconds starting on frame 2980) 
 
 ---
 
+### Looping
+
+`loop 500` loop from the current frame500 ms
+
+`loop beginning` set the current frame as the beginning of the loop
+
+`loop end` set the current loop as the loop end
+
+`loop 4000 5000` loop between frames 4000 and 5000
+
+`loop current 5000` loop between current frame and 5000
+
+`loop 4000 current` loop between frame 4000 and current one
+
+`loop mode 1` set the loop mode
+
+---
+
+### Using a remote.tsv file to code commands
+
+Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) object, I can codify specific commands and trigger them as midinotes.
+
+---
+
+### CC input
+
+| CC number | param            |                                                                                                                              |
+| --------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| `88`      | `slide1`         | Control the opacity of the slide #1                                                                                          |
+| `89`      | `slide2`         | Control the opacity of the slide #2                                                                                          |
+| `90`      | "smart fade"     | Controls the opacity of slides 1 & 2, depending on the current state, and what we want to fade in (video, slide1, or slide2) |
+| `91`      | loop mode        |                                                                                                                              |
+| `92`      | "scrubbing dial" | Use to "scrub" with a given range (this is set using the command `range <frame start> <frame end>`)                          |
+
+---
+
 ## Log~
 
 ###### 2023-11-08
