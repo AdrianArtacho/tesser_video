@@ -100,7 +100,7 @@ You may play a section of a loaded video (say 5 seconds starting on frame 2980) 
 
 ### Looping
 
-`loop 500` loop from the current frame500 ms
+`loop 500` loop from the current frame 500 ms
 
 `loop beginning` set the current frame as the beginning of the loop
 
@@ -113,6 +113,22 @@ You may play a section of a loaded video (say 5 seconds starting on frame 2980) 
 `loop 4000 current` loop between frame 4000 and current one
 
 `loop mode 1` set the loop mode
+
+---
+
+### Inverting
+
+`invert x` invert x axis to whatever state it is now
+
+`invert x 0` deactivates inverting x axis
+
+`invert x 1` activates inverting x axis
+
+`invert y` inverts the y axis, in regards to whichever state it is in now
+
+`invert y 0` deactivates y axis inversion
+
+`invert y 1` activates y-axis inversion
 
 ---
 
