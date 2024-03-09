@@ -54,7 +54,7 @@ This is
 
 ## Load Video
 
-Also witha clip name:
+Also with a clip name:
 
 ```
 video {name} {command} {frame number} {"path/to/image.png}
@@ -62,13 +62,27 @@ video {name} {command} {frame number} {"path/to/image.png}
 
 > `video {name} {command} {frame number} {"absolute/path/to/video"}`
 
-The commands can be:
+The `commands` + `frameNum` can be:
 
 > `start 10` Starts to play in the given frame
 > 
 > `stop 200` goes to a given frame and stops playing
 > 
 > `frame 500` moves the playhead to a given frame
+
+
+
+Examples:
+
+`video mem1 start 3000 \"EXTERN:/SIXMEMOS - 2023/1 Leggerezza/Memos _ Leggerezza.mp4\"`
+
+`video mem0 stop 6000 \"EXTERN:/SIXMEMOS - 2023/Herschel Project/slides/Herschel_Experiment.mov\"`
+
+`slide1 VISIBILITA "EXTERN:/SIXMEMOS - 2023/6MfPaSPP - Live Project/slides/4_visibilita.png"`
+
+`slide2 COERENZA "EXTERN:/SIXMEMOS - 2023/6MfPaSPP - Live Project/slides/6_Coerenza.png"`
+
+
 
 ---
 
@@ -132,7 +146,7 @@ You may play a section of a loaded video (say 5 seconds starting on frame 2980) 
 
 ---
 
-### Using a remote.tsv file to code commands
+### Using a remote .csv file to code commands
 
 Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) object, I can codify specific commands and trigger them as midinotes.
 
@@ -145,7 +159,7 @@ Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) o
 | `88`      | `slide1`         | Control the opacity of the slide #1                                                                                          |
 | `89`      | `slide2`         | Control the opacity of the slide #2                                                                                          |
 | `90`      | "smart fade"     | Controls the opacity of slides 1 & 2, depending on the current state, and what we want to fade in (video, slide1, or slide2) |
-| `91`      | loop mode        |                                                                                                                              |
+| `91`      | loop mode        | ?                                                                                                                            |
 | `92`      | "scrubbing dial" | Use to "scrub" with a given range (this is set using the command `range <frame start> <frame end>`)                          |
 
 ---
@@ -207,3 +221,17 @@ master fade `CC90` that fades in/out smartly.
 - what is the issue with `tesser_videoloop`?
 
 - ISSUE WITH SMART SLIDES!!
+
+###### 2024-03-09
+
+> Issue with the timing: the seconds don't seem right
+> 
+> > [jit.movie] duration spits out 196689 for a video that is 328 seconds long.
+> > 
+> > --> I should use _milliseconds_ instead.
+> 
+> Do slides with transparent background work?
+> 
+> > yes! (Slide 1 stays over slide 2)
+> 
+> ...

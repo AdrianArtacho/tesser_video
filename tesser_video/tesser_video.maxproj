@@ -2,7 +2,7 @@
 	"name" : "tesser_video",
 	"version" : 1,
 	"creationdate" : 3779766031,
-	"modificationdate" : 3782559662,
+	"modificationdate" : 3792825719,
 	"viewrect" : [ -344.0, 429.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,11 +26,6 @@
 				"local" : 1
 			}
 ,
-			"frame_delay.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"download-sheet.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
@@ -40,6 +35,11 @@
 				}
 
 			}
+,
+			"frame_delay.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -47,6 +47,13 @@
 			"unescape.js" : 			{
 				"kind" : "javascript",
 				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
+			"mxj.mxo" : 			{
+				"kind" : "object"
 			}
 
 		}
