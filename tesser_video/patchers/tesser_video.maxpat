@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 332.0, 294.0, 915.0, 212.0 ],
+		"rect" : [ 70.0, 314.0, 915.0, 212.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -21,7 +21,7 @@
 		"gridsnaponopen" : 1,
 		"objectsnaponopen" : 1,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"lefttoolbarpinned" : 0,
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
@@ -29,8 +29,8 @@
 		"toolbars_unpinned_last_save" : 0,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -71,7 +71,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1005.333333333333371, 75.0, 54.0, 22.0 ]
+					"patching_rect" : [ 1005.333333333333371, 75.0, 119.0, 22.0 ]
 				}
 
 			}
@@ -163,7 +163,6 @@
 ,
 					"text" : "mpup/",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"textjustification" : 0,
 					"varname" : "textedit[3]"
 				}
 
@@ -904,7 +903,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 519.0, 222.0, 150.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "mpup/ <LOAD> slide2 uuu"
 								}
 
@@ -1001,7 +999,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 573.0, 365.0, 41.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "LOAD"
 								}
 
@@ -1985,7 +1982,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3389.0, 540.0, 91.441649999999754, 22.0 ]
+					"patching_rect" : [ 3389.0, 540.0, 119.0, 22.0 ]
 				}
 
 			}
@@ -6043,7 +6040,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 691.0, 226.0, 50.0, 22.0 ],
-													"text" : "14956"
+													"text" : "708"
 												}
 
 											}
@@ -9291,13 +9288,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-316",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 581.0, 1072.5, 53.0, 49.0 ],
-					"text" : "position -16.720779"
+					"patching_rect" : [ 581.0, 1072.5, 59.0, 35.0 ],
+					"text" : "position 0.098314"
 				}
 
 			}
@@ -9786,7 +9783,6 @@
 
 					}
 ,
-					"text" : "loop 12000 15000, loop modus 2",
 					"varname" : "cmd_list"
 				}
 
@@ -10091,7 +10087,6 @@
 
 					}
 ,
-					"text" : "test5",
 					"textjustification" : 2,
 					"varname" : "cmd_descriptor"
 				}
@@ -10463,7 +10458,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1894.5, 660.0, 50.0, 22.0 ],
-					"text" : "C",
+					"text" : "A",
 					"textjustification" : 1
 				}
 
@@ -10684,7 +10679,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 651.0, 933.0, 161.0, 29.0 ],
-									"text" : "C"
+									"text" : "A"
 								}
 
 							}
