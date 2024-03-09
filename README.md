@@ -70,8 +70,6 @@ The `commands` + `frameNum` can be:
 > 
 > `frame 500` moves the playhead to a given frame
 
-
-
 Examples:
 
 `video mem1 start 3000 \"EXTERN:/SIXMEMOS - 2023/1 Leggerezza/Memos _ Leggerezza.mp4\"`
@@ -81,8 +79,6 @@ Examples:
 `slide1 VISIBILITA "EXTERN:/SIXMEMOS - 2023/6MfPaSPP - Live Project/slides/4_visibilita.png"`
 
 `slide2 COERENZA "EXTERN:/SIXMEMOS - 2023/6MfPaSPP - Live Project/slides/6_Coerenza.png"`
-
-
 
 ---
 
@@ -149,6 +145,101 @@ You may play a section of a loaded video (say 5 seconds starting on frame 2980) 
 ### Using a remote .csv file to code commands
 
 Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) object, I can codify specific commands and trigger them as midinotes.
+
+**COMMAND ID**
+
+>  The first word (e.g. `RAP4`) in the string is a human-readable 'name' for reference
+
+
+
+**COMMANDS**
+
+> `slide1`
+> 
+> Loads a specific file onto the first slider. E.g.:
+> 
+> ```
+> RAP1 slide1 "EXTERN:/Max PROJECTS/tesserakt/tesser_video/test_media/Slides_test1.png"
+> ```
+> 
+> ---
+> 
+> `slide2`
+> 
+> Same, but for the second slider.
+> 
+> ---
+> 
+> `video`
+> 
+> It loads the video. It needs to be entered in combination with frame/start/stop.
+> 
+> ```
+> <ID> video <frame/start/stop> <position> <filepath>
+> ```
+> 
+> ---
+> 
+> `frame`
+> 
+> ![](images/frame-examples.png)
+> 
+> ...
+> 
+> ---
+> 
+> `range`
+> 
+> Sets the range that the 'scrub' will be restricted to. E.g.:
+> 
+> ```
+> <ID> range 513 581
+> ```
+> 
+> ---
+> 
+> `loop`
+> 
+> The loop also requires two values, but these are the frames???. E.g.:
+> 
+> ```
+> <ID> loop 16935 19195
+> ```
+> 
+> ![](images/loop-logic.png)
+> 
+> ---
+> 
+> `invert`
+> 
+> Inverts the video image by the *x* or the *y* axes. This needs to be turned on/of numerically. E.g.:
+> 
+> ```
+> <ID> invert x 1
+> <ID> invert x 0
+> ```
+> 
+>  ---
+> 
+> `var`
+> 
+> Sets the gap for the 'drunk' mode. E.g.:
+> 
+> ```
+> <ID> var drunkgap 200
+> ```
+> 
+> 
+> 
+> ...
+
+The messages can be put together with the help of commas:
+
+```
+16935 19195, frame 512 start, range 513 581
+```
+
+
 
 ---
 
