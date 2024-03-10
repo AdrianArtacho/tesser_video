@@ -150,8 +150,6 @@ Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) o
 
 >  The first word (e.g. `RAP4`) in the string is a human-readable 'name' for reference
 
-
-
 **COMMANDS**
 
 > `slide1`
@@ -229,8 +227,6 @@ Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) o
 > <ID> var drunkgap 200
 > ```
 > 
-> 
-> 
 > ...
 
 The messages can be put together with the help of commas:
@@ -238,8 +234,6 @@ The messages can be put together with the help of commas:
 ```
 16935 19195, frame 512 start, range 513 581
 ```
-
-
 
 ---
 
@@ -324,5 +318,31 @@ master fade `CC90` that fades in/out smartly.
 > Do slides with transparent background work?
 > 
 > > yes! (Slide 1 stays over slide 2)
+
+###### 2024-03-10
+
+> I did some OSC tests, and everything seems fine :)
+> 
+> There are some minor issues to fix, namely:
+> 
+> - useless [print] objects: *jitextra*, *sdvsdv*, *averaver*, *debug1*, *debug2*, *debug3*
+> 
+> - Re-program keyboard shortcuts:
+> 
+> > shortcuts ON: -9
+> > 
+> > shortcuts OFF: -10
+> > 
+> > previous cue: -11
+> > 
+> > repeat current cue: -12
+> > 
+> > back to beginning: -5
+> 
+> - Video commands and frames... i don't understant it yet
+> 
+> - ONLY FILES WITH NO SPACES (eventually I should fix it so that this is never a problem)
+> 
+> - Text loading different images (it should be fine though) and document the right command for that in the *sheet*.
 > 
 > ...
