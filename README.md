@@ -346,3 +346,12 @@ master fade `CC90` that fades in/out smartly.
 > - Text loading different images (it should be fine though) and document the right command for that in the *sheet*.
 > 
 > ...
+
+---
+
+### ToDo
+
+- Dimensions of the image? Probably not, unless it is enforced by my patch!
+- Play speed... a slider of sorts?
+- Rotate image?
+- Manipulate video image: colors, water-fx distortion, bw, caleidoscope... etc.
