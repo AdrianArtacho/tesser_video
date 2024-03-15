@@ -239,13 +239,15 @@ The messages can be put together with the help of commas:
 
 ### CC input
 
-| CC number | param            |                                                                                                                              |
-| --------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| `88`      | `slide1`         | Control the opacity of the slide #1                                                                                          |
-| `89`      | `slide2`         | Control the opacity of the slide #2                                                                                          |
-| `90`      | "smart fade"     | Controls the opacity of slides 1 & 2, depending on the current state, and what we want to fade in (video, slide1, or slide2) |
-| `91`      | loop mode        | ?                                                                                                                            |
-| `92`      | "scrubbing dial" | Use to "scrub" with a given range (this is set using the command `range <frame start> <frame end>`)                          |
+| CC number | param            |                                                                                                                                                                                          |
+| --------- | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `88`      | `slide1`         | Control the opacity of the slide #1                                                                                                                                                      |
+| `89`      | `slide2`         | Control the opacity of the slide #2                                                                                                                                                      |
+| `90`      | "smart fade"     | Controls the opacity of slides 1 & 2, depending on the current state, and what we want to fade in (video, slide1, or slide2)                                                             |
+| `91`      | loop mode        | ?                                                                                                                                                                                        |
+| `92`      | "scrubbing dial" | Use to "scrub" with a given range (this is set using the command `range <frame start> <frame end>`)                                                                                      |
+| `93`      | rate dial        | This controls the dial (0 <> 127) which itself controls the playback rate. Default (64) equals a 1.x rate. The min. and max. values are a logarithmic function of the `max. rate` value. |
+| `94`      | max. rate        | This controls the maximum playback rate that can be set through the `rate dial` value. For values < 64 in the `rate dial`, the reduces logarithmically according to the same value.      |
 
 ---
 
@@ -352,6 +354,5 @@ master fade `CC90` that fades in/out smartly.
 ### ToDo
 
 - Dimensions of the image? Probably not, unless it is enforced by my patch!
-- Play speed... a slider of sorts?
 - Rotate image?
 - Manipulate video image: colors, water-fx distortion, bw, caleidoscope... etc.
