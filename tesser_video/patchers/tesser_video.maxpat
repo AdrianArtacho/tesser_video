@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 294.0, 623.0, 918.0, 210.0 ],
+		"rect" : [ 97.0, 53.0, 1237.0, 997.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,80 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-128",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 488.5, 1470.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-104",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 410.0, 1459.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-100",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 488.5, 1520.0, 53.0, 22.0 ],
+					"text" : "raate $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Scrub through the range set on the right of the dial",
+					"hint" : "Scrub through the range set on the right of the dial",
+					"id" : "obj-63",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 410.0, 1412.0, 27.0, 34.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 146.0, 82.0, 27.0, 34.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_info" : "Scrub through the range set on the right of the dial",
+							"parameter_initial" : [ 61.999999999999915 ],
+							"parameter_initial_enable" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "play_rate_dial",
+							"parameter_mmax" : 4.0,
+							"parameter_mmin" : -2.0,
+							"parameter_shortname" : "play_rate_dial",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"showname" : 0,
+					"shownumber" : 0,
+					"triangle" : 1,
+					"varname" : "play_rate_dial"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-85",
 					"maxclass" : "message",
@@ -6331,7 +6405,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 691.0, 226.0, 50.0, 22.0 ],
-													"text" : "1646"
+													"text" : "1975"
 												}
 
 											}
@@ -9585,7 +9659,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 1072.5, 59.0, 35.0 ],
-					"text" : "position 0.014036"
+					"text" : "position 1."
 				}
 
 			}
@@ -9882,8 +9956,9 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_info" : "Scrub through the range set on the right of the dial",
-							"parameter_longname" : "live.dial",
-							"parameter_shortname" : "live.dial",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "scrub_dial",
+							"parameter_shortname" : "scrub_dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
 						}
@@ -9892,7 +9967,7 @@
 ,
 					"showname" : 0,
 					"shownumber" : 0,
-					"varname" : "live.dial"
+					"varname" : "scrub_dial"
 				}
 
 			}
@@ -19127,9 +19202,9 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[6]",
+							"parameter_longname" : "reload_2",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text[5]",
+							"parameter_shortname" : "reload_2",
 							"parameter_type" : 2
 						}
 
@@ -19151,21 +19226,22 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 2388.0, 609.0, 77.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 102.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 176.25, 102.5, 81.75, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[7]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "load_slide_2",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text[4]",
+							"parameter_shortname" : "load_slide_2",
 							"parameter_type" : 2
 						}
 
 					}
 ,
 					"text" : "load slide 2",
-					"varname" : "live.text[7]"
+					"varname" : "load_slide_2"
 				}
 
 			}
@@ -21578,16 +21654,17 @@
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[5]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "reload_1",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text[5]",
+							"parameter_shortname" : "reload_1",
 							"parameter_type" : 2
 						}
 
 					}
 ,
 					"text" : "reload",
-					"varname" : "live.text[5]"
+					"varname" : "reload_1"
 				}
 
 			}
@@ -21602,21 +21679,22 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1428.0, 579.0, 77.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 83.5, 100.0, 20.0 ],
+					"presentation_rect" : [ 176.25, 83.5, 81.75, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_invisible" : 2,
-							"parameter_longname" : "live.text[4]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "load_slide_1",
 							"parameter_mmax" : 1,
-							"parameter_shortname" : "live.text[4]",
+							"parameter_shortname" : "load_slide_1",
 							"parameter_type" : 2
 						}
 
 					}
 ,
 					"text" : "load slide 1",
-					"varname" : "live.text[4]"
+					"varname" : "load_slide_1"
 				}
 
 			}
@@ -22294,6 +22372,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-173", 0 ],
+					"source" : [ "obj-100", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-97", 0 ],
 					"source" : [ "obj-101", 0 ]
 				}
@@ -22303,6 +22388,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-131", 0 ],
 					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-128", 0 ],
+					"source" : [ "obj-104", 0 ]
 				}
 
 			}
@@ -22550,6 +22642,13 @@
 					"destination" : [ "obj-353", 0 ],
 					"order" : 0,
 					"source" : [ "obj-127", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-100", 0 ],
+					"source" : [ "obj-128", 0 ]
 				}
 
 			}
@@ -24955,6 +25054,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-104", 0 ],
+					"source" : [ "obj-63", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"source" : [ "obj-64", 0 ]
 				}
@@ -25269,8 +25375,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-119" : [ "live.text[6]", "live.text[5]", 0 ],
-			"obj-122" : [ "live.text[7]", "live.text[4]", 0 ],
+			"obj-119" : [ "reload_2", "reload_2", 0 ],
+			"obj-122" : [ "load_slide_2", "load_slide_2", 0 ],
 			"obj-127" : [ "keypress-raw[1]", "keypress-raw", 0 ],
 			"obj-136" : [ "path_slide2", "path_slide2", 0 ],
 			"obj-15" : [ "live.text", "live.text", 0 ],
@@ -25294,19 +25400,19 @@
 			"obj-277" : [ "cmd_list", "path_video", 0 ],
 			"obj-28" : [ "live.text[2]", "live.text[2]", 0 ],
 			"obj-280" : [ "current_frame", "current_frame", 0 ],
-			"obj-284" : [ "live.dial", "live.dial", 0 ],
+			"obj-284" : [ "scrub_dial", "scrub_dial", 0 ],
 			"obj-293" : [ "range_from", "range_from", 0 ],
 			"obj-294" : [ "range_until", "range_until", 0 ],
 			"obj-300" : [ "range_until[1]", "range_until", 0 ],
 			"obj-304" : [ "osc-toggle", "osc-toggle", 0 ],
 			"obj-306" : [ "scrub_CC", "scrub_CC", 0 ],
 			"obj-309" : [ "osc-INport", "osc-INport", 0 ],
-			"obj-31" : [ "live.text[4]", "live.text[4]", 0 ],
+			"obj-31" : [ "load_slide_1", "load_slide_1", 0 ],
 			"obj-313" : [ "milliseconds-current", "milliseconds-current", 0 ],
 			"obj-327" : [ "textedit", "textedit", 0 ],
 			"obj-332" : [ "textedit[1]", "textedit", 0 ],
 			"obj-337" : [ "textedit[2]", "textedit", 0 ],
-			"obj-34" : [ "live.text[5]", "live.text[5]", 0 ],
+			"obj-34" : [ "reload_1", "reload_1", 0 ],
 			"obj-36" : [ "live.text[3]", "live.text[3]", 0 ],
 			"obj-362" : [ "shortcut-space", "shortcut-space", 0 ],
 			"obj-366" : [ "shortcut-space[1]", "shortcut-space", 0 ],
@@ -25323,6 +25429,7 @@
 			"obj-58" : [ "path_slide1[1]", "path_slide1", 0 ],
 			"obj-59" : [ "invert_X", "invert_X", 0 ],
 			"obj-60" : [ "invert_Y", "invert_Y", 0 ],
+			"obj-63" : [ "play_rate_dial", "play_rate_dial", 0 ],
 			"obj-67" : [ "audio_toggle", "audio_toggle", 0 ],
 			"obj-9" : [ "u292003155", "u292003155", 0 ],
 			"parameterbanks" : 			{
