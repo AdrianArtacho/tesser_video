@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 48.0, 435.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 972.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,64 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgcolor" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"bgcolor2" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"gradient" : 1,
+					"id" : "obj-406",
+					"ignoreclick" : 1,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 2029.0, 110.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 303.0, 8.0, 29.5, 22.0 ],
+					"text" : "/2",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"textjustification" : 0
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
+					"id" : "obj-353",
+					"keymode" : 1,
+					"linecount" : 2,
+					"maxclass" : "textedit",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "int", "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 3376.0, 726.0, 100.0, 50.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 410.0, 218.0, 227.0, 35.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_invisible" : 1,
+							"parameter_longname" : "textedit[4]",
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "textedit",
+							"parameter_type" : 3
+						}
+
+					}
+,
+					"text" : "mpup/ CTRL 17 81",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"varname" : "textedit[4]"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-420",
 					"maxclass" : "newobj",
@@ -117,7 +175,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 316.311751961708069, 345.67903995513916, 50.0, 156.0 ],
-									"text" : "For a database containing 1 banks, the dumpsize will be set to 127."
+									"text" : "For a database containing 4 banks, the dumpsize will be set to 511."
 								}
 
 							}
@@ -990,7 +1048,6 @@
 									}
 ,
 									"patching_rect" : [ 63.157894134521484, 422.368417024612427, 73.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"saved_object_attributes" : 									{
 										"description" : "",
 										"digest" : "",
@@ -4595,7 +4652,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 453.289469361305237, 5.263157844543457, 171.0, 22.0 ],
-									"presentation_linecount" : 2,
 									"text" : "smart cross 2000 s-l-i-d-e path"
 								}
 
@@ -4749,7 +4805,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 846.052623510360718, 260.526313304901123, 50.0, 22.0 ]
+									"patching_rect" : [ 846.052623510360718, 260.526313304901123, 50.0, 22.0 ],
+									"text" : "..."
 								}
 
 							}
@@ -5895,8 +5952,8 @@
 					"patching_rect" : [ 2014.0, 95.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 341.0, 8.0, 33.0, 22.0 ],
-					"text" : "18",
-					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
+					"text" : "388",
+					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textjustification" : 2
 				}
 
@@ -5909,7 +5966,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1838.0, -78.0, 50.0, 22.0 ],
-					"text" : "18 127"
+					"text" : "126 0"
 				}
 
 			}
@@ -6442,7 +6499,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2086.5, -98.0, 62.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 4.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -9037,7 +9094,8 @@
 													"id" : "obj-7",
 													"maxclass" : "newobj",
 													"numinlets" : 1,
-													"numoutlets" : 0,
+													"numoutlets" : 2,
+													"outlettype" : [ "", "" ],
 													"patching_rect" : [ 6.0, 32.0, 77.0, 22.0 ],
 													"text" : "mxj net.local"
 												}
@@ -13512,7 +13570,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 691.0, 226.0, 50.0, 22.0 ],
-													"text" : "284920"
+													"text" : "80"
 												}
 
 											}
@@ -16942,7 +17000,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 1072.5, 59.0, 35.0 ],
-					"text" : "position 0.817209"
+					"text" : "position 0.002505"
 				}
 
 			}
@@ -17198,7 +17256,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2300.5, -35.5, 510.0, 22.0 ],
-					"text" : "smart clear 2000"
+					"text" : "bang"
 				}
 
 			}
@@ -17442,7 +17500,6 @@
 
 					}
 ,
-					"text" : "smart clear 2000",
 					"varname" : "cmd_list"
 				}
 
@@ -17750,7 +17807,6 @@
 
 					}
 ,
-					"text" : "clear-images",
 					"textjustification" : 2,
 					"varname" : "cmd_descriptor"
 				}
@@ -18059,7 +18115,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1916.5, 687.0, 50.0, 22.0 ],
-					"text" : "0B",
+					"text" : "...",
 					"textjustification" : 1
 				}
 
@@ -28150,7 +28206,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 865.5, 38.0, 115.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -33296,6 +33352,7 @@
 			"obj-332" : [ "textedit[1]", "textedit", 0 ],
 			"obj-337" : [ "textedit[2]", "textedit", 0 ],
 			"obj-34" : [ "reload_1", "reload_1", 0 ],
+			"obj-353" : [ "textedit[4]", "textedit", 0 ],
 			"obj-354" : [ "scrub_CC[1]", "scrub_CC", 0 ],
 			"obj-36" : [ "live.text[3]", "live.text[3]", 0 ],
 			"obj-360" : [ "live.dial", "live.dial", 0 ],
