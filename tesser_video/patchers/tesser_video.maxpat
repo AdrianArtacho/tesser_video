@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 513.0, 629.0, 972.0, 779.0 ],
+		"rect" : [ 259.0, 302.0, 935.0, 252.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,140 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-523",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 601.0, -43.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-521",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 445.0, -14.0, 29.5, 22.0 ],
+					"text" : "0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-519",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "bang" ],
+					"patching_rect" : [ 504.0, 100.0, 32.0, 22.0 ],
+					"text" : "t b b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-518",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.5, -19.0, 29.5, 22.0 ],
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-516",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.5, -82.0, 54.0, 22.0 ],
+					"text" : "deferlow"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-515",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "bang", "int", "int" ],
+					"patching_rect" : [ 487.5, -136.71875, 83.0, 22.0 ],
+					"text" : "live.thisdevice"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-511",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 504.0, 67.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"attr" : "presentation",
+					"id" : "obj-508",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 487.5, 18.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"activebgcolor" : [ 0.560784, 0.172549, 0.086275, 1.0 ],
+					"fontsize" : 36.0,
+					"id" : "obj-492",
+					"maxclass" : "live.text",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 341.0, 163.0, 573.0, 77.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 341.0, 163.0, 573.0, 77.0 ],
+					"saved_attribute_attributes" : 					{
+						"activebgcolor" : 						{
+							"expression" : "themecolor.maxwindow_errorbackground"
+						}
+,
+						"valueof" : 						{
+							"parameter_enum" : [ "val1", "val2" ],
+							"parameter_invisible" : 2,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "recall_button",
+							"parameter_mmax" : 1,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "recall_button",
+							"parameter_type" : 2
+						}
+
+					}
+,
+					"text" : "Press here to recall stored data!",
+					"varname" : "recall_button"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-487",
 					"maxclass" : "message",
@@ -409,13 +543,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-410",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1007.96875, 1746.0, 126.0, 62.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\""
+					"patching_rect" : [ 1007.96875, 1746.0, 126.0, 49.0 ],
+					"text" : "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\""
 				}
 
 			}
@@ -507,7 +641,7 @@
 					"patching_rect" : [ 633.40625, -28.0, 166.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 599.0, 355.0, 175.0, 22.0 ],
-					"text" : "1"
+					"text" : "read -11."
 				}
 
 			}
@@ -582,7 +716,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1037.96875, 1553.34375, 79.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -598,7 +732,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-498",
 					"keymode" : 1,
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -620,7 +754,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\"",
+					"text" : "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "_PATH_SUBSTITUTION"
 				}
@@ -685,7 +819,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1035.32291666666697, -280.0, 112.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/settings.json\"" ],
+					"restore" : [ "-11." ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1369,7 +1503,6 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-353",
 					"keymode" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1377,7 +1510,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1081.879241704940796, -231.543634235858917, 229.6875, 70.3125 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 334.0, 355.0, 247.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1391,7 +1523,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/settings.json\"",
+					"text" : "-11.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "settings_path"
 				}
@@ -7711,7 +7843,7 @@
 					"patching_rect" : [ 2014.094047367572784, 94.63087660074234, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 340.939612150192261, 8.053691625595093, 33.0, 22.0 ],
-					"text" : "4",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 2
 				}
@@ -15319,7 +15451,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 691.0, 226.0, 50.0, 22.0 ],
-													"text" : "0"
+													"text" : "388"
 												}
 
 											}
@@ -16780,36 +16912,36 @@
 					"patching_rect" : [ 1766.0, 108.0, 95.0, 22.0 ],
 					"restore" : [ 						{
 							"1" : [ "5m-lampen", "frame" ],
-							"2" : [ "LOAD-5m-lampen", "video", "5m-lampen", "start", 100, "_PATH_MPUP/videos/5m-lampen.mp4" ],
-							"3" : [ "LOAD-7m-clean", "video", "7m-clean", "start", 500, "_PATH_MPUP/videos/7m-clean.mp4" ],
-							"4" : [ "LOAD-7m-darkness", "video", "7m-darkness", "start", 500, "_PATH_MPUP/videos/7m-in-darkness.mp4" ],
-							"5" : [ "LOAD-9m-clean-lamps", "video", "9m-clean-lamps", "start", 600, "_PATH_MPUP/videos/9m-clean-lamps.mp4" ],
-							"6" : [ "LOAD-light-only", "video", "light-only", "start", 400, "_PATH_MPUP/videos/10m-light-only.mp4" ],
-							"7" : [ "LOAD-12m-colors", "video", "12m-colors", "start", 300, "_PATH_MPUP/videos/12m-colors.mp4" ],
-							"8" : [ "LOAD-high-colored", "video", "high-colored", "start", 400, "_PATH_MPUP/videos/12m-high-colored.mp4" ],
-							"9" : [ "LOAD-fassade", "video", "shaded-fassade", "start", 9200, "_PATH_MPUP/videos/12m-shaded-fassade.mp4" ],
-							"10" : [ "LOAD-darkness", "video", "darkness", "start", 600, "_PATH_MPUP/videos/14m-darkness.mp4" ],
-							"11" : [ "LOAD-16-mins", "video", "16-mins", "start", 700, "_PATH_MPUP/videos/16mins.mp4" ],
-							"12" : [ "LOAD-25m", "video", "25m", "start", 400, "_PATH_MPUP/videos/25Minuten.mp4" ],
-							"13" : [ "cross-image0", "smart", "cross", 1500, "0-0", "_PATH_MPUP/slides/mpup_Slides_0.png" ],
-							"14" : [ "cross-image1", "smart", "cross", 1500, "0-1", "_PATH_MPUP/slides/mpup_Slides_1.png" ],
-							"15" : [ "cross-image2", "smart", "cross", 1500, "0-2", "_PATH_MPUP/slides/mpup_Slides_2.png" ],
-							"16" : [ "cross-image3", "smart", "cross", 1500, "0-3", "_PATH_MPUP/slides/mpup_Slides_3.png" ],
-							"17" : [ "cross-image4", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides_4.png" ],
+							"2" : [ "LOAD-5m-lampen", "video", "5m-lampen", "start", 100, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/5m-lampen.mp4" ],
+							"3" : [ "LOAD-7m-clean", "video", "7m-clean", "start", 500, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/7m-clean.mp4" ],
+							"4" : [ "LOAD-7m-darkness", "video", "7m-darkness", "start", 500, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/7m-in-darkness.mp4" ],
+							"5" : [ "LOAD-9m-clean-lamps", "video", "9m-clean-lamps", "start", 600, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/9m-clean-lamps.mp4" ],
+							"6" : [ "LOAD-light-only", "video", "light-only", "start", 400, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/10m-light-only.mp4" ],
+							"7" : [ "LOAD-12m-colors", "video", "12m-colors", "start", 300, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/12m-colors.mp4" ],
+							"8" : [ "LOAD-high-colored", "video", "high-colored", "start", 400, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/12m-high-colored.mp4" ],
+							"9" : [ "LOAD-fassade", "video", "shaded-fassade", "start", 9200, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/12m-shaded-fassade.mp4" ],
+							"10" : [ "LOAD-darkness", "video", "darkness", "start", 600, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/14m-darkness.mp4" ],
+							"11" : [ "LOAD-16-mins", "video", "16-mins", "start", 700, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/16mins.mp4" ],
+							"12" : [ "LOAD-25m", "video", "25m", "start", 400, "Macintosh HD:/Users/adrian/Desktop/MPUP/videos/25Minuten.mp4" ],
+							"13" : [ "cross-image0", "smart", "cross", 1500, "0-0", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/mpup_Slides_0.png" ],
+							"14" : [ "cross-image1", "smart", "cross", 1500, "0-1", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/mpup_Slides_1.png" ],
+							"15" : [ "cross-image2", "smart", "cross", 1500, "0-2", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/mpup_Slides_2.png" ],
+							"16" : [ "cross-image3", "smart", "cross", 1500, "0-3", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/mpup_Slides_3.png" ],
+							"17" : [ "cross-image4", "smart", "cross", 1500, "0-4", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/mpup_Slides_4.png" ],
 							"18" : [ "clear-images", "smart", "clear", 2000 ],
-							"19" : [ "bulb0", "smart", "cross", 2000, "b0", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen0.png" ],
-							"20" : [ "bulb1", "smart", "cross", 2000, "b1", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen1.png" ],
-							"21" : [ "bulb2", "smart", "cross", 2000, "b2", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen2.png" ],
-							"22" : [ "bulb3", "smart", "cross", 2000, "b3", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen3.png" ],
-							"23" : [ "bulb4", "smart", "cross", 2000, "b4", "_PATH_/MPUP/slides/bubs/mpup_Gluhbirnen4.png" ],
-							"24" : [ "bulb5", "smart", "cross", 2000, "b5", "_PATH_/MPUP/slides/bubs/mpup_Gluhbirnen5.png" ],
-							"25" : [ "bulb6", "smart", "cross", 2000, "b6", "_PATH_/MPUP/slides/bubs/mpup_Gluhbirnen6.png" ],
-							"26" : [ "bulb7", "smart", "cross", 2000, "b7", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen7.png" ],
-							"27" : [ "bulb8", "smart", "cross", 2000, "b8", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen8.png" ],
-							"28" : [ "bulb9", "smart", "cross", 2000, "b9", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen9.png" ],
-							"29" : [ "bulb10", "smart", "cross", 2000, "b10", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen10.png" ],
-							"30" : [ "bulb11", "smart", "cross", 2000, "b11", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen11.png" ],
-							"31" : [ "bulb12", "smart", "cross", 2000, "b12", "_PATH_MPUP/slides/bubs/mpup_Gluhbirnen12.png" ],
+							"19" : [ "bulb0", "smart", "cross", 2000, "b0", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen0.png" ],
+							"20" : [ "bulb1", "smart", "cross", 2000, "b1", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen1.png" ],
+							"21" : [ "bulb2", "smart", "cross", 2000, "b2", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen2.png" ],
+							"22" : [ "bulb3", "smart", "cross", 2000, "b3", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen3.png" ],
+							"23" : [ "bulb4", "smart", "cross", 2000, "b4", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen4.png" ],
+							"24" : [ "bulb5", "smart", "cross", 2000, "b5", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen5.png" ],
+							"25" : [ "bulb6", "smart", "cross", 2000, "b6", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen6.png" ],
+							"26" : [ "bulb7", "smart", "cross", 2000, "b7", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen7.png" ],
+							"27" : [ "bulb8", "smart", "cross", 2000, "b8", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen8.png" ],
+							"28" : [ "bulb9", "smart", "cross", 2000, "b9", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen9.png" ],
+							"29" : [ "bulb10", "smart", "cross", 2000, "b10", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen10.png" ],
+							"30" : [ "bulb11", "smart", "cross", 2000, "b11", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen11.png" ],
+							"31" : [ "bulb12", "smart", "cross", 2000, "b12", "Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen12.png" ],
 							"32" : "...",
 							"33" : "...",
 							"34" : "...",
@@ -16906,7 +17038,135 @@
 							"125" : "...",
 							"126" : "...",
 							"127" : "...",
-							"128" : [ "MPUP", "loop", 6008, 7515, ",", "frame", 180, "start", ",", "range", 697703, 872709 ]
+							"128" : [ "MPUP", "loop", 6008, 7515, ",", "frame", 180, "start", ",", "range", 697703, 872709 ],
+							"129" : [ "RAP2", "loop", 8080, 10718, ",", "frame", 247, "start", ",", "range", 938322, 1244670 ],
+							"130" : [ "RAP3", "loop", 12225, 18630, ",", "frame", 373, "start", ",", "range", 1419677, 2163483 ],
+							"131" : [ "RAP4", "loop", 16935, 19195, ",", "frame", 512, "start", ",", "range", 1966645, 2229096 ],
+							"132" : [ "RAP5", "loop", 90401, 93793, ",", "frame", 2713, "start", ",", "range", 10498180, 10892090 ],
+							"133" : [ "RAP6", "loop", 20136, 23528, ",", "frame", 690, "start", ",", "range", 2338374, 2732283 ],
+							"134" : [ "RAP7", "loop", 54798, 59131, ",", "frame", 1680, "start", ",", "range", 6363638, 6866825 ],
+							"135" : [ "RAP8", "loop", 78911, 82490, ",", "frame", 2300, "start", ",", "range", 9163858, 9579483 ],
+							"136" : [ "RAP9", "loop", 93228, 95111, ",", "frame", 2800, "start", ",", "range", 10826477, 11045148 ],
+							"137" : [ "RAP10", "loop", 101140, 104153, ",", "frame", 3000, "start", ",", "range", 11745290, 12095187 ],
+							"138" : [ "RAP11", "loop", 38975, 43496, ",", "frame", 1200, "start", ",", "range", 4526129, 5051148 ],
+							"139" : [ "[Esattezza]", "loop", "modus", 2 ],
+							"140" : [ "ESA1", "loop", 6111, 10498, ",", "frame", 194, "start", ",", "range", 709664, 1219122 ],
+							"141" : [ "ESA2", "loop", 12838, 16055, ",", "frame", 391, "start", ",", "range", 1490864, 1864451 ],
+							"142" : [ "ESA3", "loop", 23658, 28923, ",", "frame", 717, "start", ",", "range", 2747380, 3358800 ],
+							"143" : [ "ESA4", "loop", 37405, 41498, ",", "frame", 1144, "start", ",", "range", 4343806, 4819122 ],
+							"144" : [ "ESA5", "loop", 47055, 53781, ",", "frame", 1430, "start", ",", "range", 5464451, 6245535 ],
+							"145" : [ "ESA6", "loop", 151755, 158775, ",", "frame", 4500, "start", ",", "range", 17623161, 18438387 ],
+							"146" : [ "ESA7", "loop", 167256, 173105, ",", "frame", 5000, "start", ",", "range", 19423277, 20102516 ],
+							"147" : [ "ESA7", "loop", 102295, 104961, ",", "frame", 3100, "start", ",", "range", 11879419, 12189019 ],
+							"148" : [ "ESA8", "loop", 66358, 67820, ",", "frame", 2000, "start", ",", "range", 7706090, 7875870 ],
+							"149" : [ "ESA9", "loop", 45008, 47348, ",", "frame", 1400, "start", ",", "range", 5226735, 5498477 ],
+							"150" : [ "ESA10", "loop", 117830, 122510, ",", "frame", 3600, "start", ",", "range", 13683483, 14226967 ],
+							"151" : [ "[Visibilita]", "loop", "mode", 2 ],
+							"152" : [ "VIS1", "loop", 45871, 59693, ",", "frame", 1757, "start", ",", "range", 5326954, 6932090 ],
+							"153" : [ "VIS2", "loop", 73516, 79253, ",", "frame", 2320, "start", ",", "range", 8537341, 9203574 ],
+							"154" : [ "VIS3", "loop", 92031, 98551, ",", "frame", 2888, "start", ",", "range", 10687470, 11444632 ],
+							"155" : [ "VIS4", "loop", 129846, 132715, ",", "frame", 3900, "start", ",", "range", 15078890, 15412064 ],
+							"156" : [ "[Molteplicita]", "loop", "modus", 2 ],
+							"157" : [ "MOL1", "loop", 921, 13648, ",", "frame", 33, "start", ",", "range", 106954, 1584929 ],
+							"158" : [ "MOL2", "loop", 15240, 16830, ",", "frame", 470, "start", ",", "range", 1769806, 1954451 ],
+							"159" : [ "MOL3", "loop", 37193, 56603, ",", "frame", 1280, "start", ",", "range", 4319187, 6573251 ],
+							"160" : [ "MOL4", "loop", 61693, 69011, ",", "frame", 2060, "start", ",", "range", 7164348, 8014180 ],
+							"161" : [ "MOL5", "loop", 71556, 76966, ",", "frame", 2200, "start", ",", "range", 8309729, 8937987 ],
+							"162" : [ "VID-Leg", "video", "l-e-g-o", "start", 0, "C:/Users/adria/Documents/TESSER/tesser_video/test_media/Memos-I-(Leggerezza).mov" ],
+							"163" : [ "VID-Esa", "video", "e-s-o", "start", 500, "C:/Users/adria/Documents/TESSER/tesser_video/test_media/Memos-III-(Essatezza).mov" ],
+							"164" : [ "SL1-hello", "slide1", "s1-h" ],
+							"165" : [ "SL1-build", "slide1", "s1-b" ],
+							"166" : [ "SL2-hello", "slide2", "s2-h" ],
+							"167" : [ "SL2-build", "slide2", "s2-b" ],
+							"168" : "[Coerenza]",
+							"169" : [ "COE", "loop", 110913, 116105, ",", "frame", 3330, "start", ",", "range", 12880219, 13483161 ],
+							"170" : "",
+							"171" : "",
+							"172" : "",
+							"173" : [ "[Sandbox]", "loop", "modus", 2 ],
+							"174" : [ "testt", "frame", 2980, 5000 ],
+							"175" : [ "snip1", "frame", 200 ],
+							"176" : [ "snip2", "frame", 600, 1000 ],
+							"177" : [ "snip3", "frame", 800, "start" ],
+							"178" : [ "test4", "frame", 200, 5000, ",", "frame", "start" ],
+							"179" : [ "test5", "loop", 12000, 15000, ",", "loop", "modus", 2 ],
+							"180" : [ "test6", "frame", 2006 ],
+							"181" : [ "CO-loop_1", "loop", 4900, 7580, ",", "frame", 148, "start" ],
+							"182" : [ "LoopAndStart", "loop", "modus", 2, ",", "frame", 4500, "start" ],
+							"183" : [ "Frametest", "frame", "random", "stop" ],
+							"184" : [ "Drunktest", "frame", "drunk", "start" ],
+							"185" : [ "loop11", "loop", "modus", 2, ",", "loop", 8000, 9500 ],
+							"186" : [ "loop12", "loop", 11500, 13400 ],
+							"187" : [ "loop13", "loop", 13000, 15000 ],
+							"188" : [ "loop14", "loop", 17000, 18000 ],
+							"189" : [ "loop15", "loop", 19000, 21000 ],
+							"190" : [ "loop16", "loop", 22000, 24000 ],
+							"191" : [ "loop17", "loop", 25000, 27000 ],
+							"192" : [ "loop18", "loop", 28000, 29000 ],
+							"193" : "...",
+							"194" : "...",
+							"195" : "...",
+							"196" : "...",
+							"197" : "...",
+							"198" : "...",
+							"199" : "...",
+							"200" : "...",
+							"201" : "...",
+							"202" : "...",
+							"203" : "...",
+							"204" : [ "[STOP]", "frame", "current", "stop" ],
+							"205" : "...",
+							"206" : "...",
+							"207" : "",
+							"208" : "",
+							"209" : "",
+							"210" : "",
+							"211" : "",
+							"212" : "",
+							"213" : "",
+							"214" : "",
+							"215" : "",
+							"216" : "",
+							"217" : "",
+							"218" : "",
+							"219" : "",
+							"220" : "",
+							"221" : "",
+							"222" : "",
+							"223" : "",
+							"224" : "",
+							"225" : "",
+							"226" : "",
+							"227" : "",
+							"228" : "",
+							"229" : "",
+							"230" : "",
+							"231" : "",
+							"232" : "",
+							"233" : "",
+							"234" : "",
+							"235" : "",
+							"236" : "",
+							"237" : "",
+							"238" : "",
+							"239" : "",
+							"240" : "",
+							"241" : "",
+							"242" : "",
+							"243" : "",
+							"244" : "",
+							"245" : "",
+							"246" : "",
+							"247" : "",
+							"248" : "",
+							"249" : "",
+							"250" : "",
+							"251" : "",
+							"252" : "",
+							"253" : "",
+							"254" : "",
+							"255" : "",
+							"0" : [ "BEGINN...", "loop", "modus", 2 ]
 						}
  ],
 					"saved_object_attributes" : 					{
@@ -17932,7 +18192,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1125.0, 236.0, 44.0, 49.0 ],
-									"text" : "framecount 12802"
+									"text" : "framecount 12251"
 								}
 
 							}
@@ -18621,7 +18881,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 1072.5, 59.0, 35.0 ],
-					"text" : "position 0.08164"
+					"text" : "position 0.009289"
 				}
 
 			}
@@ -19101,7 +19361,6 @@
 					"fontsize" : 11.0,
 					"id" : "obj-277",
 					"keymode" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -19109,7 +19368,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1713.422893345355988, 366.442968964576721, 300.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 409.5, 26.25, 226.666673421859741, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -19123,7 +19381,6 @@
 
 					}
 ,
-					"text" : "video 7m-darkness start 500 _PATH_MPUP/videos/7m-in-darkness.mp4",
 					"varname" : "cmd_list"
 				}
 
@@ -19418,7 +19675,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1495.0, 366.0, 198.5, 49.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 292.0, 26.25, 116.000003457069397, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -19432,7 +19688,6 @@
 
 					}
 ,
-					"text" : "LOAD-7m-darkness",
 					"textjustification" : 2,
 					"varname" : "cmd_descriptor"
 				}
@@ -19741,7 +19996,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1916.5, 687.0, 50.0, 22.0 ],
-					"text" : "0A",
+					"text" : "...",
 					"textjustification" : 1
 				}
 
@@ -28037,7 +28292,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2326.75, 1282.0, 155.0, 62.0 ],
-					"text" : "\"EXTERN:/Max PROJECTS/tesserakt/tesser_video/test_media/Slides_test1.png\""
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen1.png\""
 				}
 
 			}
@@ -28095,7 +28350,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 376.0, 866.0, 22.0 ],
-									"text" : "\"EXTERN:/Max PROJECTS/tesserakt/tesser_video/test_media/Slides_test1.png\""
+									"text" : "\"Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen1.png\""
 								}
 
 							}
@@ -28120,7 +28375,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 253.0, 866.0, 49.0 ],
-									"text" : "69 88 84 69 82 78 58 47 77 97 120 32 80 82 79 74 69 67 84 83 47 116 101 115 115 101 114 97 107 116 47 116 101 115 115 101 114 95 118 105 100 101 111 47 116 101 115 116 95 109 101 100 105 97 47 83 108 105 100 101 115 95 116 101 115 116 49 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 71 108 117 104 98 105 114 110 101 110 49 46 112 110 103"
 								}
 
 							}
@@ -28145,7 +28400,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 162.0, 866.0, 49.0 ],
-									"text" : "69 88 84 69 82 78 58 47 77 97 120 32 80 82 79 74 69 67 84 83 47 116 101 115 115 101 114 97 107 116 47 116 101 115 115 101 114 95 118 105 100 101 111 47 116 101 115 116 95 109 101 100 105 97 47 83 108 105 100 101 115 95 116 101 115 116 49 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 71 108 117 104 98 105 114 110 101 110 49 46 112 110 103"
 								}
 
 							}
@@ -28466,7 +28721,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2058.5, 700.0, 96.0, 22.0 ],
-					"restore" : [ "\"EXTERN:/Max PROJECTS/tesserakt/tesser_video/test_media/Slides_test1.png\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen1.png\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -28503,7 +28758,7 @@
 
 					}
 ,
-					"text" : "\"EXTERN:/Max PROJECTS/tesserakt/tesser_video/test_media/Slides_test1.png\"",
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/MPUP/slides/bubs/mpup_Gluhbirnen1.png\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_slide2"
 				}
@@ -29870,7 +30125,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 719.0, 738.0, 85.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -29890,7 +30145,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 613.0, 738.0, 85.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -31151,7 +31406,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 275.0, 447.0, 100.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/7m-in-darkness.mp4\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/MPUP/videos/25Minuten.mp4\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -31201,13 +31456,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"linecount" : 9,
+					"linecount" : 6,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 517.0, 82.0, 129.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/7m-in-darkness.mp4\""
+					"patching_rect" : [ 300.0, 517.0, 82.0, 89.0 ],
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/MPUP/videos/25Minuten.mp4\""
 				}
 
 			}
@@ -31240,7 +31495,7 @@
 					"bgcolor" : [ 0.733333333333333, 0.733333333333333, 0.733333333333333, 1.0 ],
 					"fontsize" : 9.0,
 					"id" : "obj-19",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -31248,7 +31503,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 400.000011920928955, 517.333348751068115, 208.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 292.0, 58.833333015441895, 344.000010251998901, 24.000000715255737 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -31262,7 +31516,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/7m-in-darkness.mp4\"",
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/MPUP/videos/25Minuten.mp4\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_video"
 				}
@@ -34916,6 +35170,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-511", 0 ],
+					"source" : [ "obj-492", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-478", 0 ],
 					"source" : [ "obj-493", 0 ]
 				}
@@ -35030,6 +35291,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-492", 0 ],
+					"source" : [ "obj-508", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-118", 0 ],
 					"source" : [ "obj-51", 0 ]
 				}
@@ -35060,8 +35328,64 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-519", 0 ],
+					"source" : [ "obj-511", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-516", 0 ],
+					"source" : [ "obj-515", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-518", 0 ],
+					"source" : [ "obj-516", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-508", 0 ],
+					"source" : [ "obj-518", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-521", 0 ],
+					"source" : [ "obj-519", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-523", 0 ],
+					"source" : [ "obj-519", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-90", 0 ],
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-508", 0 ],
+					"source" : [ "obj-521", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-485", 0 ],
+					"source" : [ "obj-523", 0 ]
 				}
 
 			}
@@ -35551,6 +35875,7 @@
 			"obj-431" : [ "shortcut-repeat", "shortcut-repeat", 0 ],
 			"obj-437" : [ "shortcut-space[3]", "shortcut-space", 0 ],
 			"obj-49" : [ "slide1_CC", "slide1_CC", 0 ],
+			"obj-492" : [ "recall_button", "recall_button", 0 ],
 			"obj-498" : [ "_PATH_SUBSTITUTION", "_PATH_SUBSTITUTION", 0 ],
 			"obj-501" : [ "reset_local_path_button", "reset_local_path_button", 0 ],
 			"obj-55" : [ "stop", "stop video", 0 ],
@@ -35614,8 +35939,8 @@
 			}
 , 			{
 				"name" : "settings.json",
-				"bootpath" : "~/Desktop",
-				"patcherrelativepath" : "../../../../../../../Users/adrian/Desktop",
+				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
