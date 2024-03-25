@@ -1,0 +1,17 @@
+{
+	"pattrstorage" : 	{
+		"name" : "settings",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"number" : [ 15 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
