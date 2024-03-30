@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 607.0, 87.0, 922.0, 256.0 ],
+		"rect" : [ 34.0, 87.0, 1072.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-477",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 3010.0, 798.5, 367.0, 35.0 ],
+					"text" : ";\rmax launchbrowse https://bitbucket.org/AdrianArtacho/tesser_video"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-523",
 					"maxclass" : "newobj",
@@ -147,6 +160,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 341.0, 163.0, 573.0, 77.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 341.0, 171.0, 573.0, 71.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.maxwindow_errorbackground"
@@ -541,13 +556,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-410",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1007.96875, 1746.0, 126.0, 62.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\""
+					"patching_rect" : [ 1007.96875, 1746.0, 126.0, 49.0 ],
+					"text" : "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\""
 				}
 
 			}
@@ -639,7 +654,7 @@
 					"patching_rect" : [ 633.40625, -28.0, 166.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 599.0, 355.0, 175.0, 22.0 ],
-					"text" : "store 1"
+					"text" : "read -11."
 				}
 
 			}
@@ -714,7 +729,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1037.96875, 1553.34375, 79.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -730,7 +745,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-498",
 					"keymode" : 1,
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -752,7 +767,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\"",
+					"text" : "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "_PATH_SUBSTITUTION"
 				}
@@ -817,7 +832,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1035.32291666666697, -280.0, 112.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/settings.json\"" ],
+					"restore" : [ "-11." ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -1501,7 +1516,6 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-353",
 					"keymode" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -1509,7 +1523,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1081.879241704940796, -231.543634235858917, 229.6875, 70.3125 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 334.0, 355.0, 247.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1523,7 +1536,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/settings.json\"",
+					"text" : "-11.",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "settings_path"
 				}
@@ -9456,7 +9469,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 790.131571412086487, 260.526313304901123, 50.0, 22.0 ],
-									"text" : "B"
+									"text" : "A"
 								}
 
 							}
@@ -10699,7 +10712,7 @@
 					"patching_rect" : [ 2014.094047367572784, 94.63087660074234, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 340.939612150192261, 8.053691625595093, 33.0, 22.0 ],
-					"text" : "84",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 2
 				}
@@ -18308,7 +18321,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 691.0, 226.0, 50.0, 22.0 ],
-													"text" : "52946"
+													"text" : "20"
 												}
 
 											}
@@ -19804,35 +19817,35 @@
 							"34" : [ "Theater", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-012.png" ],
 							"35" : [ "clear!", "smart", "clear", 2000 ],
 							"36" : [ "VID|14m-dark", "video", "14m-dark", "start", 600, "_PATH_MPUP/videos/14m-darkness.mp4" ],
-							"37" : [ "bulb1", "smart", "fade", 5000, "b1", "_PATH_MPUP/slides/bubs/mpup_bulbs1.png" ],
-							"38" : [ "bulb2", "smart", "smooth", 500, "b2", "_PATH_MPUP/slides/bubs/mpup_bulbs2.png" ],
-							"39" : [ "bulb3", "smart", "smooth", 500, "b3", "_PATH_MPUP/slides/bubs/mpup_bulbs3.png" ],
-							"40" : [ "bulb4", "smart", "smooth", 500, "b4", "_PATH_MPUP/slides/bubs/mpup_bulbs4.png" ],
-							"41" : [ "bulb5", "smart", "smooth", 500, "b5", "_PATH_/MPUP/slides/bubs/mpup_bulbs5.png" ],
-							"42" : [ "bulb6", "smart", "smooth", 500, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs6.png" ],
-							"43" : [ "bulb7", "smart", "smooth", 500, "b7", "_PATH_/MPUP/slides/bubs/mpup_bulbs7.png" ],
-							"44" : [ "bulb8", "smart", "cross", 800, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs8.png" ],
-							"45" : [ "bulb9", "smart", "cross", 800, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs9.png" ],
-							"46" : [ "bulb10", "smart", "cross", 800, "b10", "_PATH_MPUP/slides/bubs/mpup_bulbs10.png" ],
-							"47" : [ "bulb11", "smart", "cross", 800, "b11", "_PATH_MPUP/slides/bubs/mpup_bulbs11.png" ],
-							"48" : [ "bulb12", "smart", "cross", 1000, "b12", "_PATH_MPUP/slides/bubs/mpup_bulbs12.png" ],
-							"49" : [ "bulb13", "smart", "cross", 1000, "b13", "_PATH_MPUP/slides/bubs/mpup_bulbs13.png" ],
-							"50" : [ "bulb14", "smart", "cross", 1000, "b14", "_PATH_MPUP/slides/bubs/mpup_bulbs14.png" ],
-							"51" : [ "bulb15", "smart", "cross", 1000, "b15", "_PATH_MPUP/slides/bubs/mpup_bulbs15.png" ],
-							"52" : [ "bulb16", "smart", "cross", 1200, "b16", "_PATH_MPUP/slides/bubs/mpup_bulbs16.png" ],
-							"53" : [ "bulb17", "smart", "cross", 1200, "b17", "_PATH_MPUP/slides/bubs/mpup_bulbs17.png" ],
-							"54" : [ "bulb18", "smart", "cross", 1200, "b18", "_PATH_MPUP/slides/bubs/mpup_bulbs18.png" ],
-							"55" : [ "bulb19", "smart", "cross", 1200, "b19", "_PATH_MPUP/slides/bubs/mpup_bulbs19.png" ],
-							"56" : [ "bulb20", "smart", "cross", 1200, "b20", "_PATH_MPUP/slides/bubs/mpup_bulbs20.png" ],
-							"57" : [ "bulb21", "smart", "cross", 1500, "b21", "_PATH_MPUP/slides/bubs/mpup_bulbs21.png" ],
-							"58" : [ "bulb22", "smart", "cross", 1500, "b22", "_PATH_MPUP/slides/bubs/mpup_bulbs22.png" ],
-							"59" : [ "bulb23", "smart", "cross", 1500, "b23", "_PATH_MPUP/slides/bubs/mpup_bulbs23.png" ],
-							"60" : [ "bulb24", "smart", "cross", 1500, "b24", "_PATH_MPUP/slides/bubs/mpup_bulbs24.png" ],
-							"61" : [ "bulb25", "smart", "cross", 1800, "b25", "_PATH_MPUP/slides/bubs/mpup_bulbs25.png" ],
-							"62" : [ "bulb26", "smart", "cross", 1800, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs26.png" ],
-							"63" : [ "bulb27", "smart", "cross", 1800, "b7", "_PATH_/MPUP/slides/bubs/mpup_bulbs27.png" ],
-							"64" : [ "bulb28", "smart", "cross", 1800, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs28.png" ],
-							"65" : [ "bulb29", "smart", "cross", 1800, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs29.png" ],
+							"37" : [ "bulb1", "smart", "fade", 7000, "b1", "_PATH_MPUP/slides/bubs/mpup_bulbs1.png" ],
+							"38" : [ "bulb2", "smart", "cross", 500, "b2", "_PATH_MPUP/slides/bubs/mpup_bulbs2.png" ],
+							"39" : [ "bulb3", "smart", "cross", 500, "b3", "_PATH_MPUP/slides/bubs/mpup_bulbs3.png" ],
+							"40" : [ "bulb4", "smart", "cross", 500, "b4", "_PATH_MPUP/slides/bubs/mpup_bulbs4.png" ],
+							"41" : [ "bulb5", "smart", "cross", 500, "b5", "_PATH_/MPUP/slides/bubs/mpup_bulbs5.png" ],
+							"42" : [ "bulb6", "smart", "cross", 500, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs6.png" ],
+							"43" : [ "bulb7", "smart", "cross", 500, "b7", "_PATH_/MPUP/slides/bubs/mpup_bulbs7.png" ],
+							"44" : [ "bulb8", "smart", "cross", 500, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs8.png" ],
+							"45" : [ "bulb9", "smart", "cross", 500, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs9.png" ],
+							"46" : [ "bulb10", "smart", "cross", 500, "b10", "_PATH_MPUP/slides/bubs/mpup_bulbs10.png" ],
+							"47" : [ "bulb11", "smart", "cross", 500, "b11", "_PATH_MPUP/slides/bubs/mpup_bulbs11.png" ],
+							"48" : [ "bulb12", "smart", "cross", 500, "b12", "_PATH_MPUP/slides/bubs/mpup_bulbs12.png" ],
+							"49" : [ "bulb13", "smart", "cross", 500, "b13", "_PATH_MPUP/slides/bubs/mpup_bulbs13.png" ],
+							"50" : [ "bulb14", "smart", "cross", 500, "b14", "_PATH_MPUP/slides/bubs/mpup_bulbs14.png" ],
+							"51" : [ "bulb15", "smart", "cross", 500, "b15", "_PATH_MPUP/slides/bubs/mpup_bulbs15.png" ],
+							"52" : [ "bulb16", "smart", "cross", 500, "b16", "_PATH_MPUP/slides/bubs/mpup_bulbs16.png" ],
+							"53" : [ "bulb17", "smart", "cross", 500, "b17", "_PATH_MPUP/slides/bubs/mpup_bulbs17.png" ],
+							"54" : [ "bulb18", "smart", "cross", 500, "b18", "_PATH_MPUP/slides/bubs/mpup_bulbs18.png" ],
+							"55" : [ "bulb19", "smart", "cross", 500, "b19", "_PATH_MPUP/slides/bubs/mpup_bulbs19.png" ],
+							"56" : [ "bulb20", "smart", "cross", 500, "b20", "_PATH_MPUP/slides/bubs/mpup_bulbs20.png" ],
+							"57" : [ "bulb21", "smart", "cross", 500, "b21", "_PATH_MPUP/slides/bubs/mpup_bulbs21.png" ],
+							"58" : [ "bulb22", "smart", "cross", 500, "b22", "_PATH_MPUP/slides/bubs/mpup_bulbs22.png" ],
+							"59" : [ "bulb23", "smart", "cross", 500, "b23", "_PATH_MPUP/slides/bubs/mpup_bulbs23.png" ],
+							"60" : [ "bulb24", "smart", "cross", 500, "b24", "_PATH_MPUP/slides/bubs/mpup_bulbs24.png" ],
+							"61" : [ "bulb25", "smart", "cross", 500, "b25", "_PATH_MPUP/slides/bubs/mpup_bulbs25.png" ],
+							"62" : [ "bulb26", "smart", "cross", 500, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs26.png" ],
+							"63" : [ "bulb27", "smart", "cross", 500, "b7", "_PATH_/MPUP/slides/bubs/mpup_bulbs27.png" ],
+							"64" : [ "bulb28", "smart", "cross", 500, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs28.png" ],
+							"65" : [ "bulb29", "smart", "cross", 500, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs29.png" ],
 							"66" : [ "bulb30", "smart", "cross", 500, "b10", "_PATH_MPUP/slides/bubs/mpup_bulbs30.png" ],
 							"67" : [ "bulb31", "smart", "cross", 500, "b11", "_PATH_MPUP/slides/bubs/mpup_bulbs31.png" ],
 							"68" : [ "bulb32", "smart", "cross", 500, "b12", "_PATH_MPUP/slides/bubs/mpup_bulbs32.png" ],
@@ -19851,7 +19864,7 @@
 							"81" : [ "uninvertY", "invert", "x", 0 ],
 							"82" : [ "loop=2", "loop", "modus", 2 ],
 							"83" : [ "fade-to-black", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-018.png" ],
-							"84" : [ "transparent-slide", "smart", "cross", 1, "trans", "_PATH_MPUP/slides/mpup_Slides-019.png" ],
+							"84" : [ "transparent-slide", "smart", "cross", 100, "trans", "_PATH_MPUP/slides/mpup_Slides-019.png" ],
 							"85" : [ "disko.contrast", "smart", "cross", 100, "trans", "_PATH_MPUP/slides/mpup_Slides-020.png" ],
 							"86" : [ "invertY", "invert", "y", 1 ],
 							"87" : [ "uninvertY", "invert", "y", 0 ],
@@ -20970,7 +20983,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 374.25, 307.5, 100.0, 22.0 ],
-									"text" : "duration 438139"
+									"text" : "duration 526639"
 								}
 
 							}
@@ -21610,7 +21623,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 1072.5, 59.0, 35.0 ],
-					"text" : "position 0.5463"
+					"text" : "position 0.00428"
 				}
 
 			}
@@ -22090,7 +22103,6 @@
 					"fontsize" : 11.0,
 					"id" : "obj-277",
 					"keymode" : 1,
-					"linecount" : 2,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -22098,7 +22110,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1713.422893345355988, 366.442968964576721, 300.0, 49.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 409.5, 26.25, 226.666673421859741, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -22112,7 +22123,6 @@
 
 					}
 ,
-					"text" : "smart cross 1 trans _PATH_MPUP/slides/mpup_Slides-019.png",
 					"varname" : "cmd_list"
 				}
 
@@ -22407,7 +22417,6 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1495.0, 366.0, 198.5, 49.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 292.0, 26.25, 116.000003457069397, 32.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -22421,7 +22430,6 @@
 
 					}
 ,
-					"text" : "transparent-slide",
 					"textjustification" : 2,
 					"varname" : "cmd_descriptor"
 				}
@@ -22668,6 +22676,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "ID:slide2",
+					"hint" : "ID:slide2",
 					"id" : "obj-233",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -22683,6 +22693,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "ID:slide1",
+					"hint" : "ID:slide1",
 					"id" : "obj-232",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -22730,7 +22742,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1916.5, 687.0, 50.0, 22.0 ],
-					"text" : "0A",
+					"text" : "...",
 					"textjustification" : 1
 				}
 
@@ -22801,7 +22813,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1895.0, 660.0, 50.0, 22.0 ],
-					"text" : "B",
+					"text" : "A",
 					"textjustification" : 1
 				}
 
@@ -23108,7 +23120,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 651.0, 933.0, 161.0, 29.0 ],
-									"text" : "B"
+									"text" : "A"
 								}
 
 							}
@@ -31025,7 +31037,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2326.75, 1282.0, 155.0, 76.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\""
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 				}
 
 			}
@@ -31083,7 +31095,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 376.0, 866.0, 22.0 ],
-									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\""
+									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 								}
 
 							}
@@ -31108,7 +31120,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 253.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 49 57 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -31133,7 +31145,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 162.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 49 57 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -31454,7 +31466,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2058.5, 700.0, 96.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -31491,7 +31503,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\"",
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_slide2"
 				}
@@ -31707,7 +31719,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1109.0, 1201.0, 155.0, 76.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\""
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 				}
 
 			}
@@ -31765,7 +31777,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 376.0, 866.0, 22.0 ],
-									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\""
+									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 								}
 
 							}
@@ -31790,7 +31802,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 253.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 49 57 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -31815,7 +31827,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 162.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 49 57 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -33920,7 +33932,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 957.5, 698.0, 96.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -33958,7 +33970,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-019.png\"",
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_slide1"
 				}
@@ -34265,7 +34277,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 3013.0, 701.0, 74.0, 20.0 ],
+					"patching_rect" : [ 3013.0, 686.0, 74.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 242.0, 21.25, 48.0, 17.0 ],
 					"saved_attribute_attributes" : 					{
@@ -34289,13 +34301,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3013.0, 731.0, 251.0, 62.0 ],
-					"text" : ";\rmax launchbrowser https://bitbucket.org/AdrianArtacho/tesser_video/src/master/"
+					"patching_rect" : [ 3013.0, 731.0, 302.0, 35.0 ],
+					"text" : ";\rmax launchbrowser https://www.artacho.at/tesservideo/"
 				}
 
 			}
@@ -34362,7 +34374,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 100, 159, 454, 287 ],
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -34508,6 +34520,8 @@
 			}
 , 			{
 				"box" : 				{
+					"annotation" : "ID:video",
+					"hint" : "ID:video",
 					"id" : "obj-191",
 					"linecount" : 2,
 					"maxclass" : "message",
@@ -38673,8 +38687,8 @@
 			}
 , 			{
 				"name" : "settings.json",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/data",
-				"patcherrelativepath" : "../data",
+				"bootpath" : "~/Desktop/Mit Pauken und Palaeste/MPUP",
+				"patcherrelativepath" : "../../../../../../../Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP",
 				"type" : "JSON",
 				"implicit" : 1
 			}
