@@ -4,6 +4,10 @@ This devide does video and image operations, has parameters accessible via midi,
 
 ---
 
+> ## [INSTRUCTIONS (PUBLIC)](public/README.md)
+
+---
+
 ## Loading slides
 
 Use the clip name. There are 2 slots for slides, each with a transparency slider that can be controlled via midi as well. 

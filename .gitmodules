@@ -4,3 +4,6 @@
 [submodule "tesser_osc"]
 	path = tesser_osc
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/tesser_osc.git
+[submodule "public"]
+	path = public
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/public_tesser_video.git
