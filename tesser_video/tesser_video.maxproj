@@ -2,7 +2,7 @@
 	"name" : "tesser_video",
 	"version" : 1,
 	"creationdate" : 3779766031,
-	"modificationdate" : 3794125045,
+	"modificationdate" : 3794811487,
 	"viewrect" : [ 0.0, 366.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -14,6 +14,11 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"_PATH_.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 ,
 			"casuistic.maxpat" : 			{
@@ -46,7 +51,7 @@
 				"local" : 1
 			}
 ,
-			"_PATH_.maxpat" : 			{
+			"standal1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -62,6 +67,10 @@
 		}
 ,
 		"data" : 		{
+			"settings.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
 
 		}
 ,

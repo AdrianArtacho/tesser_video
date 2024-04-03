@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1372.0, 779.0 ],
+		"rect" : [ 34.0, 87.0, 1072.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,29 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-510",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "standal1.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 653.0, 471.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 605.0, 31.0, 241.0, 52.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-506",
 					"maxclass" : "newobj",
@@ -292,6 +315,8 @@
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 341.0, 163.0, 573.0, 77.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 341.0, 163.0, 573.0, 77.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.maxwindow_errorbackground"
@@ -686,13 +711,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-410",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1007.96875, 1746.0, 126.0, 62.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\""
+					"patching_rect" : [ 1007.96875, 1746.0, 126.0, 49.0 ],
+					"text" : "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\""
 				}
 
 			}
@@ -784,7 +809,7 @@
 					"patching_rect" : [ 633.40625, -28.0, 166.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 599.0, 355.0, 175.0, 22.0 ],
-					"text" : "1"
+					"text" : "read -11."
 				}
 
 			}
@@ -859,7 +884,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1037.96875, 1553.34375, 79.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -875,7 +900,7 @@
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"id" : "obj-498",
 					"keymode" : 1,
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "textedit",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -897,7 +922,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/\"",
+					"text" : "\"Macintosh HD:/Users/fav_ms_apple02/Desktop/RMC/\"",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"varname" : "_PATH_SUBSTITUTION"
 				}
@@ -9599,7 +9624,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 790.131571412086487, 260.526313304901123, 50.0, 22.0 ],
-									"text" : "C"
+									"text" : "A"
 								}
 
 							}
@@ -10842,7 +10867,7 @@
 					"patching_rect" : [ 2014.094047367572784, 94.63087660074234, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 340.939612150192261, 8.053691625595093, 33.0, 22.0 ],
-					"text" : "102",
+					"text" : "1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"textjustification" : 2
 				}
@@ -18452,7 +18477,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 691.0, 226.0, 50.0, 22.0 ],
-													"text" : "1"
+													"text" : "0"
 												}
 
 											}
@@ -19915,16 +19940,16 @@
 					"patching_rect" : [ 1766.0, 108.0, 95.0, 22.0 ],
 					"restore" : [ 						{
 							"1" : [ "loop=2", "smart", "clear", 2000 ],
-							"2" : [ "VID|9m-clean", "video", "9m-clean", "start", 2200, "_PATH_MPUP/videos/9m-clean-lamps.mov" ],
+							"2" : [ "VID|9m-clean", "video", "9m-clean", "start", 400, "_PATH_MPUP/videos/9m-clean-lamps.mp4" ],
 							"3" : [ "welcome", "smart", "cross", 1500, "0-0", "_PATH_MPUP/slides/mpup_Slides-001.png" ],
 							"4" : [ "clear!", "smart", "clear", 2000 ],
-							"5" : [ "VID|light-only", "video", "light-only", "start", 6000, "_PATH_MPUP/videos/10m-light-only.mov" ],
+							"5" : [ "VID|light", "video", "light-only", "start", 13000, "_PATH_MPUP/videos/10m-light-only.mp4" ],
 							"6" : [ "GroÃer", "smart", "cross", 1500, "0-1", "_PATH_MPUP/slides/mpup_Slides-002.png" ],
 							"7" : [ "clear!", "smart", "clear", 2000 ],
-							"8" : [ "VID|16m", "video", "16min", "start", 500, "_PATH_MPUP/videos/16mins.mov" ],
+							"8" : [ "VID|16m", "video", "16min", "start", 500, "_PATH_MPUP/videos/16mins.mp4" ],
 							"9" : [ "Foyer", "smart", "cross", 1500, "0-2", "_PATH_MPUP/slides/mpup_Slides-003.png" ],
 							"10" : [ "clear!", "smart", "clear", 2000 ],
-							"11" : [ "VID|7m-clean", "video", "7m-clean", "start", 600, "_PATH_MPUP/videos/7m-clean.mov" ],
+							"11" : [ "VID|7m-clean", "video", "7m-clean", "start", 600, "_PATH_MPUP/videos/7m-clean.mp4" ],
 							"12" : [ "Milchbar", "smart", "cross", 1500, "0-3", "_PATH_MPUP/slides/mpup_Slides-004.png" ],
 							"13" : [ "clear!", "smart", "clear", 2000 ],
 							"14" : [ "MenÃ¼0", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-005.png" ],
@@ -19936,112 +19961,112 @@
 							"20" : [ "2--", "smart", "cross", 10, "0-4", "_PATH_MPUP/slides/mpup_Slides-016.png" ],
 							"21" : [ "3--", "smart", "cross", 10, "0-4", "_PATH_MPUP/slides/mpup_Slides-017.png" ],
 							"22" : [ "clear!", "smart", "clear", 2000 ],
-							"23" : [ "VID|12m-colors", "video", "12m-colors", "start", 600, "_PATH_MPUP/videos/12m-colors.mov" ],
+							"23" : [ "VID|12m-colors", "video", "12m-colors", "start", 600, "_PATH_MPUP/videos/12m-colors.mp4" ],
 							"24" : [ "bowling", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-009.png" ],
 							"25" : [ "clear!", "smart", "clear", 2000 ],
-							"26" : [ "VID|12m-high", "video", "12m-high", "start", 600, "_PATH_MPUP/videos/12m-high-colored.mov" ],
+							"26" : [ "VID|12m-high", "video", "12m-high", "start", 600, "_PATH_MPUP/videos/12m-high-colored.mp4" ],
 							"27" : [ "disko", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-010.png" ],
 							"28" : [ "clear!", "smart", "clear", 2000 ],
-							"29" : [ "VID|7m-dark", "video", "7m-dark", "start", 400, "_PATH_MPUP/videos/7m-in-darkness.mov" ],
-							"30" : [ "VID|5m-lampen", "video", "5m-lampen", "start", 300, "_PATH_MPUP/videos/5m-lampen.mov" ],
+							"29" : [ "VID|7m-dark", "video", "7m-dark", "start", 400, "_PATH_MPUP/videos/7m-in-darkness.mp4" ],
+							"30" : [ "VID|5m-lampen", "video", "5m-lampen", "start", 300, "_PATH_MPUP/videos/5m-lampen.mp4" ],
 							"31" : [ "galerie", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-011.png" ],
 							"32" : [ "clear!", "smart", "clear", 2000 ],
-							"33" : [ "VID|25m", "video", "25m", "start", 400, "_PATH_MPUP/videos/25Minuten.mov" ],
+							"33" : [ "VID|25m", "video", "25m", "start", 400, "_PATH_MPUP/videos/25Minuten.mp4" ],
 							"34" : [ "Theater", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-012.png" ],
 							"35" : [ "clear!", "smart", "clear", 2000 ],
-							"36" : [ "VID|14m-dark", "video", "14m-dark", "start", 600, "_PATH_MPUP/videos/14m-darkness.mov" ],
-							"37" : [ "bulb1", "smart", "cross", 5000, "b1", "_PATH_MPUP/slides/bubs/mpup_bulbs1.png" ],
-							"38" : [ "bulb2", "smart", "cross", 1800, "b2", "_PATH_MPUP/slides/bubs/mpup_bulbs2.png" ],
-							"39" : [ "bulb3", "smart", "cross", 1800, "b3", "_PATH_MPUP/slides/bubs/mpup_bulbs3.png" ],
-							"40" : [ "bulb4", "smart", "cross", 1700, "b4", "_PATH_MPUP/slides/bubs/mpup_bulbs4.png" ],
-							"41" : [ "bulb5", "smart", "cross", 1700, "b5", "_PATH_/MPUP/slides/bubs/mpup_bulbs5.png" ],
-							"42" : [ "bulb6", "smart", "cross", 1600, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs6.png" ],
-							"43" : [ "bulb7", "smart", "cross", 1600, "b7", "_PATH_/MPUP/slides/bubs/mpup_bulbs7.png" ],
-							"44" : [ "bulb8", "smart", "cross", 1500, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs8.png" ],
-							"45" : [ "bulb9", "smart", "cross", 1500, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs9.png" ],
-							"46" : [ "bulb10", "smart", "cross", 1500, "b10", "_PATH_MPUP/slides/bubs/mpup_bulbs10.png" ],
-							"47" : [ "bulb11", "smart", "cross", 1400, "b11", "_PATH_MPUP/slides/bubs/mpup_bulbs11.png" ],
-							"48" : [ "bulb12", "smart", "cross", 1400, "b12", "_PATH_MPUP/slides/bubs/mpup_bulbs12.png" ],
-							"49" : [ "bulb13", "smart", "cross", 1400, "b13", "_PATH_MPUP/slides/bubs/mpup_bulbs13.png" ],
-							"50" : [ "bulb14", "smart", "cross", 1300, "b14", "_PATH_MPUP/slides/bubs/mpup_bulbs14.png" ],
-							"51" : [ "bulb15", "smart", "cross", 1300, "b15", "_PATH_MPUP/slides/bubs/mpup_bulbs15.png" ],
-							"52" : [ "bulb16", "smart", "cross", 1200, "b16", "_PATH_MPUP/slides/bubs/mpup_bulbs16.png" ],
-							"53" : [ "bulb17", "smart", "cross", 1200, "b17", "_PATH_MPUP/slides/bubs/mpup_bulbs17.png" ],
-							"54" : [ "bulb18", "smart", "cross", 1100, "b18", "_PATH_MPUP/slides/bubs/mpup_bulbs18.png" ],
-							"55" : [ "bulb19", "smart", "cross", 1100, "b19", "_PATH_MPUP/slides/bubs/mpup_bulbs19.png" ],
-							"56" : [ "bulb20", "smart", "cross", 1000, "b20", "_PATH_MPUP/slides/bubs/mpup_bulbs20.png" ],
-							"57" : [ "bulb21", "smart", "cross", 1000, "b21", "_PATH_MPUP/slides/bubs/mpup_bulbs21.png" ],
-							"58" : [ "bulb22", "smart", "cross", 900, "b22", "_PATH_MPUP/slides/bubs/mpup_bulbs22.png" ],
-							"59" : [ "bulb23", "smart", "cross", 900, "b23", "_PATH_MPUP/slides/bubs/mpup_bulbs23.png" ],
-							"60" : [ "bulb24", "smart", "cross", 800, "b24", "_PATH_MPUP/slides/bubs/mpup_bulbs24.png" ],
-							"61" : [ "bulb25", "smart", "cross", 700, "b25", "_PATH_MPUP/slides/bubs/mpup_bulbs25.png" ],
-							"62" : [ "bulb26", "smart", "cross", 600, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs26.png" ],
+							"36" : [ "VID|14m-dark", "video", "14m-dark", "start", 600, "_PATH_MPUP/videos/14m-darkness.mp4" ],
+							"37" : [ "bulb1", "smart", "fade", 7000, "b1", "_PATH_MPUP/slides/bubs/mpup_bulbs1.png" ],
+							"38" : [ "bulb2", "smart", "cross", 500, "b2", "_PATH_MPUP/slides/bubs/mpup_bulbs2.png" ],
+							"39" : [ "bulb3", "smart", "cross", 500, "b3", "_PATH_MPUP/slides/bubs/mpup_bulbs3.png" ],
+							"40" : [ "bulb4", "smart", "cross", 500, "b4", "_PATH_MPUP/slides/bubs/mpup_bulbs4.png" ],
+							"41" : [ "bulb5", "smart", "cross", 500, "b5", "_PATH_/MPUP/slides/bubs/mpup_bulbs5.png" ],
+							"42" : [ "bulb6", "smart", "cross", 500, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs6.png" ],
+							"43" : [ "bulb7", "smart", "cross", 500, "b7", "_PATH_/MPUP/slides/bubs/mpup_bulbs7.png" ],
+							"44" : [ "bulb8", "smart", "cross", 500, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs8.png" ],
+							"45" : [ "bulb9", "smart", "cross", 500, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs9.png" ],
+							"46" : [ "bulb10", "smart", "cross", 500, "b10", "_PATH_MPUP/slides/bubs/mpup_bulbs10.png" ],
+							"47" : [ "bulb11", "smart", "cross", 500, "b11", "_PATH_MPUP/slides/bubs/mpup_bulbs11.png" ],
+							"48" : [ "bulb12", "smart", "cross", 500, "b12", "_PATH_MPUP/slides/bubs/mpup_bulbs12.png" ],
+							"49" : [ "bulb13", "smart", "cross", 500, "b13", "_PATH_MPUP/slides/bubs/mpup_bulbs13.png" ],
+							"50" : [ "bulb14", "smart", "cross", 500, "b14", "_PATH_MPUP/slides/bubs/mpup_bulbs14.png" ],
+							"51" : [ "bulb15", "smart", "cross", 500, "b15", "_PATH_MPUP/slides/bubs/mpup_bulbs15.png" ],
+							"52" : [ "bulb16", "smart", "cross", 500, "b16", "_PATH_MPUP/slides/bubs/mpup_bulbs16.png" ],
+							"53" : [ "bulb17", "smart", "cross", 500, "b17", "_PATH_MPUP/slides/bubs/mpup_bulbs17.png" ],
+							"54" : [ "bulb18", "smart", "cross", 500, "b18", "_PATH_MPUP/slides/bubs/mpup_bulbs18.png" ],
+							"55" : [ "bulb19", "smart", "cross", 500, "b19", "_PATH_MPUP/slides/bubs/mpup_bulbs19.png" ],
+							"56" : [ "bulb20", "smart", "cross", 500, "b20", "_PATH_MPUP/slides/bubs/mpup_bulbs20.png" ],
+							"57" : [ "bulb21", "smart", "cross", 500, "b21", "_PATH_MPUP/slides/bubs/mpup_bulbs21.png" ],
+							"58" : [ "bulb22", "smart", "cross", 500, "b22", "_PATH_MPUP/slides/bubs/mpup_bulbs22.png" ],
+							"59" : [ "bulb23", "smart", "cross", 500, "b23", "_PATH_MPUP/slides/bubs/mpup_bulbs23.png" ],
+							"60" : [ "bulb24", "smart", "cross", 500, "b24", "_PATH_MPUP/slides/bubs/mpup_bulbs24.png" ],
+							"61" : [ "bulb25", "smart", "cross", 500, "b25", "_PATH_MPUP/slides/bubs/mpup_bulbs25.png" ],
+							"62" : [ "bulb26", "smart", "cross", 500, "b6", "_PATH_/MPUP/slides/bubs/mpup_bulbs26.png" ],
 							"63" : [ "bulb27", "smart", "cross", 500, "b7", "_PATH_/MPUP/slides/bubs/mpup_bulbs27.png" ],
-							"64" : [ "bulb28", "smart", "cross", 400, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs28.png" ],
-							"65" : [ "bulb29", "smart", "cross", 400, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs29.png" ],
-							"66" : [ "bulb30", "smart", "cross", 400, "b10", "_PATH_MPUP/slides/bubs/mpup_bulbs30.png" ],
-							"67" : [ "bulb31", "smart", "cross", 400, "b11", "_PATH_MPUP/slides/bubs/mpup_bulbs31.png" ],
-							"68" : [ "bulb32", "smart", "cross", 400, "b12", "_PATH_MPUP/slides/bubs/mpup_bulbs32.png" ],
-							"69" : [ "bulb33", "smart", "cross", 400, "b13", "_PATH_MPUP/slides/bubs/mpup_bulbs33.png" ],
-							"70" : [ "bulb34", "smart", "cross", 300, "b14", "_PATH_MPUP/slides/bubs/mpup_bulbs34.png" ],
-							"71" : [ "bulb35", "smart", "cross", 300, "b15", "_PATH_MPUP/slides/bubs/mpup_bulbs35.png" ],
-							"72" : [ "bulb36", "smart", "cross", 300, "b16", "_PATH_MPUP/slides/bubs/mpup_bulbs36.png" ],
+							"64" : [ "bulb28", "smart", "cross", 500, "b8", "_PATH_MPUP/slides/bubs/mpup_bulbs28.png" ],
+							"65" : [ "bulb29", "smart", "cross", 500, "b9", "_PATH_MPUP/slides/bubs/mpup_bulbs29.png" ],
+							"66" : [ "bulb30", "smart", "cross", 500, "b10", "_PATH_MPUP/slides/bubs/mpup_bulbs30.png" ],
+							"67" : [ "bulb31", "smart", "cross", 500, "b11", "_PATH_MPUP/slides/bubs/mpup_bulbs31.png" ],
+							"68" : [ "bulb32", "smart", "cross", 500, "b12", "_PATH_MPUP/slides/bubs/mpup_bulbs32.png" ],
+							"69" : [ "bulb33", "smart", "cross", 500, "b13", "_PATH_MPUP/slides/bubs/mpup_bulbs33.png" ],
+							"70" : [ "bulb34", "smart", "cross", 500, "b14", "_PATH_MPUP/slides/bubs/mpup_bulbs34.png" ],
+							"71" : [ "bulb35", "smart", "cross", 500, "b15", "_PATH_MPUP/slides/bubs/mpup_bulbs35.png" ],
+							"72" : [ "bulb36", "smart", "cross", 500, "b16", "_PATH_MPUP/slides/bubs/mpup_bulbs36.png" ],
 							"73" : [ "clear!", "smart", "clear", 7000 ],
-							"74" : [ "VID|fassade", "video", "fassade", "start", 9200, "_PATH_MPUP/videos/12m-shaded-fassade.mov" ],
+							"74" : [ "VID|fassade", "video", "fassade", "start", 9200, "_PATH_MPUP/videos/12m-shaded-fassade.mp4" ],
 							"75" : [ "Fassade", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-013.png" ],
 							"76" : [ "clear!", "smart", "clear", 2000 ],
-							"77" : [ "other", "video", "12m-high", "start", 600, "_PATH_MPUP/videos/5m-lampen.mov" ],
-							"78" : [ "GlaeserneBlume", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-014.png" ],
+							"77" : [ "other", "video", "12m-high", "start", 600, "_PATH_MPUP/videos/5m-lampen.mp4" ],
+							"78" : [ "AufWiedersehen", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-014.png" ],
 							"79" : [ "clear!", "smart", "clear", 2000 ],
 							"80" : [ "invertX", "invert", "x", 1 ],
 							"81" : [ "uninvertY", "invert", "x", 0 ],
 							"82" : [ "loop=2", "loop", "modus", 2 ],
-							"83" : [ "slow-black-out", "smart", "cross", 4000, "0-4", "_PATH_MPUP/slides/mpup_Slides-018.png" ],
+							"83" : [ "fade-to-black", "smart", "cross", 1500, "0-4", "_PATH_MPUP/slides/mpup_Slides-018.png" ],
 							"84" : [ "transparent-slide", "smart", "cross", 100, "trans", "_PATH_MPUP/slides/mpup_Slides-019.png" ],
 							"85" : [ "disko.contrast", "smart", "cross", 100, "trans", "_PATH_MPUP/slides/mpup_Slides-020.png" ],
 							"86" : [ "invertY", "invert", "y", 1 ],
 							"87" : [ "uninvertY", "invert", "y", 0 ],
-							"88" : [ "quick-black-out", "smart", "cross", 1000, "0-4", "_PATH_MPUP/slides/mpup_Slides-018.png" ],
-							"89" : [ "VID|light-only", "video", "light-only", "start", 4500, "_PATH_MPUP/videos/10m-light-only.mov" ],
-							"90" : [ "VID|9m-clean", "video", "9m-clean", "start", 6400, "_PATH_MPUP/videos/9m-clean-lamps.mov" ],
-							"91" : [ "VID|25m", "video", "25m", "start", 33000, "_PATH_MPUP/videos/25Minuten.mov" ],
-							"92" : [ "VID|12m-high", "video", "12m-high", "start", 4000, "_PATH_MPUP/videos/12m-high-colored.mov" ],
-							"93" : [ "VID|12m-high", "video", "12m-high", "start", 12800, "_PATH_MPUP/videos/12m-high-colored.mov" ],
-							"94" : [ "VID|12m-high", "video", "12m-high", "start", 18905, "_PATH_MPUP/videos/12m-high-colored.mov" ],
-							"95" : [ "VID|7m-dark", "video", "7m-dark", "start", 10970, "_PATH_MPUP/videos/7m-in-darkness.mov" ],
-							"96" : [ "VID|fassade", "video", "fassade", "start", 10000, "_PATH_MPUP/videos/12m-shaded-fassade.mov" ],
-							"97" : [ "VID|16m", "video", "16min", "start", 23000, "_PATH_MPUP/videos/16mins.mov" ],
-							"98" : [ "VID|9m-clean", "video", "9m-clean", "start", 11004, "_PATH_MPUP/videos/9m-clean-lamps.mov" ],
-							"99" : [ "Looong-clear!", "smart", "clear", 12000 ],
-							"100" : [ "Looong-black-out", "smart", "cross", 12000, "0-4", "_PATH_MPUP/slides/mpup_Slides-018.png" ],
-							"101" : [ "PHOTO1", "slide1", "photo1", "_PATH_MPUP/slides/mpup_Slides-020.png" ],
-							"102" : [ "slsls", "slider", 1, 34 ],
-							"103" : [ "RAP3", "loop", 12225, 18630, ",", "frame", 373, "start", ",", "range", 1419677, 2163483 ],
-							"104" : [ "RAP4", "loop", 16935, 19195, ",", "frame", 512, "start", ",", "range", 1966645, 2229096 ],
-							"105" : [ "RAP5", "loop", 90401, 93793, ",", "frame", 2713, "start", ",", "range", 10498180, 10892090 ],
-							"106" : [ "RAP6", "loop", 20136, 23528, ",", "frame", 690, "start", ",", "range", 2338374, 2732283 ],
-							"107" : [ "RAP7", "loop", 54798, 59131, ",", "frame", 1680, "start", ",", "range", 6363638, 6866825 ],
-							"108" : [ "RAP8", "loop", 78911, 82490, ",", "frame", 2300, "start", ",", "range", 9163858, 9579483 ],
-							"109" : [ "RAP9", "loop", 93228, 95111, ",", "frame", 2800, "start", ",", "range", 10826477, 11045148 ],
-							"110" : [ "RAP10", "loop", 101140, 104153, ",", "frame", 3000, "start", ",", "range", 11745290, 12095187 ],
-							"111" : [ "RAP11", "loop", 38975, 43496, ",", "frame", 1200, "start", ",", "range", 4526129, 5051148 ],
-							"112" : [ "ESA1", "loop", 6111, 10498, ",", "frame", 194, "start", ",", "range", 709664, 1219122 ],
-							"113" : [ "ESA2", "loop", 12838, 16055, ",", "frame", 391, "start", ",", "range", 1490864, 1864451 ],
-							"114" : [ "ESA3", "loop", 23658, 28923, ",", "frame", 717, "start", ",", "range", 2747380, 3358800 ],
-							"115" : [ "ESA4", "loop", 37405, 41498, ",", "frame", 1144, "start", ",", "range", 4343806, 4819122 ],
-							"116" : [ "ESA5", "loop", 47055, 53781, ",", "frame", 1430, "start", ",", "range", 5464451, 6245535 ],
-							"117" : [ "ESA6", "loop", 151755, 158775, ",", "frame", 4500, "start", ",", "range", 17623161, 18438387 ],
-							"118" : [ "ESA7", "loop", 167256, 173105, ",", "frame", 5000, "start", ",", "range", 19423277, 20102516 ],
-							"119" : [ "ESA7", "loop", 102295, 104961, ",", "frame", 3100, "start", ",", "range", 11879419, 12189019 ],
-							"120" : [ "ESA8", "loop", 66358, 67820, ",", "frame", 2000, "start", ",", "range", 7706090, 7875870 ],
-							"121" : [ "ESA9", "loop", 45008, 47348, ",", "frame", 1400, "start", ",", "range", 5226735, 5498477 ],
-							"122" : [ "ESA10", "loop", 117830, 122510, ",", "frame", 3600, "start", ",", "range", 13683483, 14226967 ],
-							"123" : [ "VIS1", "loop", 45871, 59693, ",", "frame", 1757, "start", ",", "range", 5326954, 6932090 ],
-							"124" : [ "VIS2", "loop", 73516, 79253, ",", "frame", 2320, "start", ",", "range", 8537341, 9203574 ],
-							"125" : [ "VIS3", "loop", 92031, 98551, ",", "frame", 2888, "start", ",", "range", 10687470, 11444632 ],
-							"126" : [ "VIS4", "loop", 129846, 132715, ",", "frame", 3900, "start", ",", "range", 15078890, 15412064 ],
-							"127" : [ "MOL1", "loop", 921, 13648, ",", "frame", 33, "start", ",", "range", 106954, 1584929 ],
-							"0" : [ "BEGINN...", "dumpval", 128, "loop", "modus", 2 ]
+							"88" : "",
+							"89" : "",
+							"90" : "",
+							"91" : "",
+							"92" : "",
+							"93" : "",
+							"94" : "",
+							"95" : "",
+							"96" : "",
+							"97" : "",
+							"98" : "",
+							"99" : "",
+							"100" : "",
+							"101" : "",
+							"102" : "",
+							"103" : "",
+							"104" : "",
+							"105" : "",
+							"106" : "",
+							"107" : "",
+							"108" : "",
+							"109" : "",
+							"110" : "",
+							"111" : "",
+							"112" : "...",
+							"113" : "...",
+							"114" : "...",
+							"115" : "...",
+							"116" : "...",
+							"117" : "...",
+							"118" : "...",
+							"119" : "...",
+							"120" : "...",
+							"121" : "...",
+							"122" : "...",
+							"123" : "...",
+							"124" : "...",
+							"125" : "...",
+							"126" : "...",
+							"127" : "...",
+							"128" : "..."
 						}
  ],
 					"saved_object_attributes" : 					{
@@ -21068,7 +21093,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1125.0, 236.0, 44.0, 49.0 ],
-									"text" : "framecount 21905"
+									"text" : "framecount 0"
 								}
 
 							}
@@ -21117,7 +21142,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 374.25, 307.5, 100.0, 22.0 ],
-									"text" : "duration 438140"
+									"text" : "duration 0"
 								}
 
 							}
@@ -21757,7 +21782,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 1072.5, 59.0, 35.0 ],
-					"text" : "position 0.020918"
+					"text" : "position 0."
 				}
 
 			}
@@ -22257,7 +22282,6 @@
 
 					}
 ,
-					"text" : "slider 1 34",
 					"varname" : "cmd_list"
 				}
 
@@ -22565,7 +22589,6 @@
 
 					}
 ,
-					"text" : "slsls",
 					"textjustification" : 2,
 					"varname" : "cmd_descriptor"
 				}
@@ -22878,7 +22901,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1916.5, 687.0, 50.0, 22.0 ],
-					"text" : "1A",
+					"text" : "...",
 					"textjustification" : 1
 				}
 
@@ -22949,7 +22972,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1895.0, 660.0, 50.0, 22.0 ],
-					"text" : "C",
+					"text" : "A",
 					"textjustification" : 1
 				}
 
@@ -23256,7 +23279,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 651.0, 933.0, 161.0, 29.0 ],
-									"text" : "C"
+									"text" : "A"
 								}
 
 							}
@@ -31174,7 +31197,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2326.75, 1282.0, 155.0, 76.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-018.png\""
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 				}
 
 			}
@@ -31232,7 +31255,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 376.0, 866.0, 22.0 ],
-									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-018.png\""
+									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 								}
 
 							}
@@ -31257,7 +31280,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 253.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 49 56 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -31282,7 +31305,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 162.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 49 56 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -31603,7 +31626,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 2058.5, 700.0, 96.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-018.png\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -31640,7 +31663,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-018.png\"",
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_slide2"
 				}
@@ -31856,7 +31879,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1109.0, 1201.0, 155.0, 76.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-020.png\""
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 				}
 
 			}
@@ -31914,7 +31937,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 376.0, 866.0, 22.0 ],
-									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-020.png\""
+									"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\""
 								}
 
 							}
@@ -31939,7 +31962,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 253.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 50 48 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -31964,7 +31987,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 112.0, 162.0, 866.0, 49.0 ],
-									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 109 112 117 112 95 83 108 105 100 101 115 45 48 50 48 46 112 110 103"
+									"text" : "77 97 99 105 110 116 111 115 104 32 72 68 58 47 85 115 101 114 115 47 97 100 114 105 97 110 47 68 101 115 107 116 111 112 47 77 105 116 32 80 97 117 107 101 110 32 117 110 100 32 80 97 108 97 101 115 116 101 47 77 80 85 80 47 115 108 105 100 101 115 47 98 117 98 115 47 109 112 117 112 95 98 117 108 98 115 49 52 46 112 110 103"
 								}
 
 							}
@@ -34069,7 +34092,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 957.5, 698.0, 96.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-020.png\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -34107,7 +34130,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/mpup_Slides-020.png\"",
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_slide1"
 				}
@@ -34288,7 +34311,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 275.0, 447.0, 100.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/12m-colors.mov\"" ],
+					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/14m-darkness.mp4\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -34344,7 +34367,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 300.0, 517.0, 82.0, 129.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/12m-colors.mov\""
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/14m-darkness.mp4\""
 				}
 
 			}
@@ -34399,7 +34422,7 @@
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/12m-colors.mov\"",
+					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/14m-darkness.mp4\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_video"
 				}
@@ -38786,6 +38809,7 @@
 			"obj-492" : [ "recall_button", "recall_button", 0 ],
 			"obj-498" : [ "_PATH_SUBSTITUTION", "_PATH_SUBSTITUTION", 0 ],
 			"obj-501" : [ "reset_local_path_button", "reset_local_path_button", 0 ],
+			"obj-510::obj-24" : [ "m4l/standalone", "m4l/standalone", 0 ],
 			"obj-55" : [ "stop", "stop video", 0 ],
 			"obj-58" : [ "path_slide1[1]", "path_slide1", 0 ],
 			"obj-59" : [ "invert_X", "invert_X", 0 ],
@@ -38847,8 +38871,15 @@
 			}
 , 			{
 				"name" : "settings.json",
-				"bootpath" : "~/Desktop/Mit Pauken und Palaeste/MPUP",
-				"patcherrelativepath" : "../../../../../../../Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP",
+				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/data",
+				"patcherrelativepath" : "../data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "standal1.maxpat",
+				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
