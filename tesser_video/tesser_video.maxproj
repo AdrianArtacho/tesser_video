@@ -2,7 +2,7 @@
 	"name" : "tesser_video",
 	"version" : 1,
 	"creationdate" : 3779766031,
-	"modificationdate" : 3794811487,
+	"modificationdate" : 3797043495,
 	"viewrect" : [ 0.0, 366.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -35,7 +35,7 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/download-sheet",
+					"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/download-sheet",
 					"projectrelativepath" : "../download-sheet"
 				}
 
@@ -46,13 +46,31 @@
 				"local" : 1
 			}
 ,
-			"frame_delay.maxpat" : 			{
+			"standal1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"standal1.maxpat" : 			{
+			"frame_delay.maxpat" : 			{
 				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"subbass_1.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"subbass_2.png" : 			{
+				"kind" : "imagefile",
+				"local" : 1
+			}
+,
+			"wavy.mp4" : 			{
+				"kind" : "moviefile",
 				"local" : 1
 			}
 
@@ -67,10 +85,6 @@
 		}
 ,
 		"data" : 		{
-			"settings.json" : 			{
-				"kind" : "json",
-				"local" : 1
-			}
 
 		}
 ,
