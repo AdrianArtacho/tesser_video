@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 87.0, 1072.0, 779.0 ],
+		"rect" : [ 335.0, 87.0, 1072.0, 779.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,9 +54,9 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 653.0, 471.0, 128.0, 128.0 ],
+					"patching_rect" : [ 653.0, 411.0, 261.0, 66.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 605.0, 31.0, 241.0, 52.0 ],
+					"presentation_rect" : [ 346.333333313465118, 549.0, 241.0, 52.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -72,8 +72,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -316,7 +316,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 341.0, 163.0, 573.0, 77.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 341.0, 163.0, 573.0, 77.0 ],
+					"presentation_rect" : [ 338.000001728534698, 251.0, 573.0, 77.0 ],
 					"saved_attribute_attributes" : 					{
 						"activebgcolor" : 						{
 							"expression" : "themecolor.maxwindow_errorbackground"
@@ -328,7 +328,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "recall_button",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "recall_button",
 							"parameter_type" : 2
 						}
@@ -374,7 +373,7 @@
 					"patching_rect" : [ 2287.248421669006348, 15.436242282390594, 169.798665106296539, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 4,
-					"presentation_rect" : [ 812.751713216304779, 346.97988086938858, 50.0, 62.0 ],
+					"presentation_rect" : [ 812.751713216304779, 376.97988086938858, 50.0, 62.0 ],
 					"text" : "256 loop modus 2"
 				}
 
@@ -389,7 +388,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2780.53703373670578, 61.744969129562378, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 812.751713216304779, 305.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 812.751713216304779, 335.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -404,8 +403,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -569,7 +568,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "reset_local_path_button",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "reset_local_path_button",
 							"parameter_type" : 2
 						}
@@ -730,7 +728,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 681.0, -75.0, 29.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 741.0, 327.0, 33.0, 22.0 ],
+					"presentation_rect" : [ 741.0, 357.0, 33.0, 22.0 ],
 					"text" : "1"
 				}
 
@@ -744,7 +742,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 616.0, -114.0, 45.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 599.0, 327.0, 99.0, 22.0 ],
+					"presentation_rect" : [ 599.0, 357.0, 99.0, 22.0 ],
 					"text" : "store 1"
 				}
 
@@ -758,7 +756,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 762.0, -121.0, 33.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 704.0, 327.0, 33.0, 22.0 ],
+					"presentation_rect" : [ 704.0, 357.0, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -808,7 +806,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 633.40625, -28.0, 166.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 599.0, 355.0, 175.0, 22.0 ],
+					"presentation_rect" : [ 599.0, 385.0, 175.0, 22.0 ],
 					"text" : "read -11."
 				}
 
@@ -821,7 +819,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 250.78125, 296.09375, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 244.5, 328.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 244.5, 358.0, 150.0, 20.0 ],
 					"text" : "write"
 				}
 
@@ -834,7 +832,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 436.71875, 341.40625, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 367.0, 328.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 367.0, 358.0, 150.0, 20.0 ],
 					"text" : "read"
 				}
 
@@ -915,7 +913,6 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "_PATH_SUBSTITUTION",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "_PATH_SUBSTITUTION",
 							"parameter_type" : 3
 						}
@@ -974,7 +971,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1201.0, -295.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 338.000001728534698, 326.0, 24.0, 24.0 ]
+					"presentation_rect" : [ 338.000001728534698, 356.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -1094,7 +1091,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 857.0, -382.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 171.0, 328.0, 72.25, 72.25 ]
+					"presentation_rect" : [ 171.0, 358.0, 72.25, 72.25 ]
 				}
 
 			}
@@ -1135,7 +1132,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[5]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -1402,7 +1398,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 302.0, 1661.0, 96.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 45.5, 327.0, 96.0, 22.0 ],
+					"presentation_rect" : [ 45.5, 357.0, 96.0, 22.0 ],
 					"restore" : [ 0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
@@ -1449,7 +1445,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-space[3]",
 							"parameter_mmin" : -127.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-space",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -1499,7 +1494,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-repeat",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-repeat",
 							"parameter_type" : 2
 						}
@@ -1515,7 +1509,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.647, 0.647, 0.647, 1.0 ],
-					"activebgoncolor" : [ 0.972549, 0.462745, 0.501961, 1.0 ],
+					"activebgoncolor" : [ 0.0, 0.0, 0.0, 0.0 ],
 					"fontsize" : 20.0,
 					"id" : "obj-430",
 					"maxclass" : "live.text",
@@ -1548,7 +1542,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "quit_button",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "quit_button",
 							"parameter_type" : 2
 						}
@@ -1678,13 +1671,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1081.879241704940796, -231.543634235858917, 229.6875, 70.3125 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 334.0, 355.0, 247.0, 49.0 ],
+					"presentation_rect" : [ 334.0, 385.0, 247.0, 49.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "settings_path",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "settings_path",
 							"parameter_type" : 3
 						}
@@ -1708,8 +1700,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2583,8 +2575,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2667,8 +2659,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3331,8 +3323,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4045,8 +4037,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4693,8 +4685,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5377,8 +5369,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5984,8 +5976,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6648,8 +6640,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7350,8 +7342,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8020,8 +8012,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8702,8 +8694,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -10413,8 +10405,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10790,7 +10782,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "scrub_CC[3]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "scrub_CC",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -10897,8 +10888,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11446,7 +11437,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "midi_bank",
 							"parameter_mmin" : 1.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "midi_bank",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -11549,7 +11539,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "scrub_CC[2]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "scrub_CC",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -11617,7 +11606,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "scrub_CC[1]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "scrub_CC",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -11683,7 +11671,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 340.5, 1700.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 46.0, 353.125, 95.5, 22.0 ],
+					"presentation_rect" : [ 46.0, 383.125, 95.5, 22.0 ],
 					"varname" : "number"
 				}
 
@@ -11698,8 +11686,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11908,7 +11896,6 @@
 							"parameter_enum" : [ "val1", "val2" ],
 							"parameter_longname" : "live.text[4]",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[4]",
 							"parameter_type" : 2
 						}
@@ -11945,7 +11932,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "rate_current",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "rate_current",
 							"parameter_type" : 0,
 							"parameter_units" : "x",
@@ -11989,7 +11975,6 @@
 							"parameter_info" : "maximum rte multiple",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "rate_multiple",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "rate_multiple",
 							"parameter_type" : 1,
 							"parameter_units" : "x",
@@ -12014,7 +11999,6 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.dial",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -12103,7 +12087,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "console_button",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "console_button",
 							"parameter_type" : 2
 						}
@@ -12174,7 +12157,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "verbose_toggle",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "verbose_toggle",
 							"parameter_type" : 2
 						}
@@ -12245,7 +12227,6 @@
 							"parameter_initial_enable" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "play_rate_dial",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "play_rate_dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 1
@@ -12384,7 +12365,6 @@
 							"parameter_longname" : "keypress-raw[1]",
 							"parameter_mmax" : 1270.0,
 							"parameter_mmin" : -127.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "keypress-raw",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -12633,7 +12613,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "keypress-raw",
 							"parameter_mmin" : -127.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "keypress-raw",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -12688,7 +12667,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[3]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -12724,7 +12702,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "keyboard-toggle",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "keyboard-toggle",
 							"parameter_type" : 2
 						}
@@ -12762,7 +12739,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-beginning",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-beginning",
 							"parameter_type" : 2
 						}
@@ -12801,7 +12777,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-previous",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-previous",
 							"parameter_type" : 2
 						}
@@ -12840,7 +12815,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-next",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-next",
 							"parameter_type" : 2
 						}
@@ -12888,7 +12862,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-space[2]",
 							"parameter_mmin" : -127.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-space",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -12935,7 +12908,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-space[1]",
 							"parameter_mmin" : -127.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-space",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -12982,7 +12954,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "shortcut-space",
 							"parameter_mmin" : -127.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "shortcut-space",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -13166,7 +13137,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[2]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -13199,7 +13169,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit[1]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -13300,7 +13269,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "textedit",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "textedit",
 							"parameter_type" : 3
 						}
@@ -13345,8 +13313,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -13810,8 +13778,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -14478,7 +14446,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "osc-INport",
 							"parameter_mmax" : 65535.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "osc-INport",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -14521,7 +14488,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "osc-toggle",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "osc-toggle",
 							"parameter_type" : 2
 						}
@@ -14615,7 +14581,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "drunk_gap",
 							"parameter_mmax" : 100000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "drunk_gap",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -14649,7 +14614,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "loop_menu",
 							"parameter_mmax" : 3,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "loop_menu",
 							"parameter_type" : 2
 						}
@@ -14676,7 +14640,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "looppoint_end",
 							"parameter_mmax" : 1000000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "looppoint_end",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -14704,7 +14667,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "looppoint_start",
 							"parameter_mmax" : 1000000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "looppoint_start",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -14770,7 +14732,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "milliseconds-current",
 							"parameter_mmax" : 200000000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "milliseconds-current",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 2
@@ -14841,8 +14802,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15020,8 +14981,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -15257,8 +15218,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -15620,8 +15581,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16175,8 +16136,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -16608,8 +16569,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17201,8 +17162,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17735,8 +17696,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18265,8 +18226,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -18477,7 +18438,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 691.0, 226.0, 50.0, 22.0 ],
-													"text" : "0"
+													"text" : "1038"
 												}
 
 											}
@@ -20114,8 +20075,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -20495,8 +20456,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -20978,8 +20939,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -21093,7 +21054,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1125.0, 236.0, 44.0, 49.0 ],
-									"text" : "framecount 0"
+									"text" : "framecount 4004"
 								}
 
 							}
@@ -21142,7 +21103,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 374.25, 307.5, 100.0, 22.0 ],
-									"text" : "duration 0"
+									"text" : "duration 80080"
 								}
 
 							}
@@ -21782,7 +21743,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 581.0, 1072.5, 59.0, 35.0 ],
-					"text" : "position 0."
+					"text" : "position 0.787425"
 				}
 
 			}
@@ -21834,7 +21795,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "scrub_CC",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "scrub_CC",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -21910,7 +21870,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "range_until[1]",
 							"parameter_mmax" : 100000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "range_until",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -21963,7 +21922,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "range_until",
 							"parameter_mmax" : 100000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "range_until",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -22005,7 +21963,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "range_from",
 							"parameter_mmax" : 100000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "range_from",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -22085,7 +22042,6 @@
 							"parameter_info" : "Scrub through the range set on the right of the dial",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "scrub_dial",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "scrub_dial",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -22131,7 +22087,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "current_frame",
 							"parameter_mmax" : 100000.0,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "current_frame",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -22161,7 +22116,6 @@
 							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[2]",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[2]",
 							"parameter_type" : 2
 						}
@@ -22191,7 +22145,6 @@
 							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[3]",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[3]",
 							"parameter_type" : 2
 						}
@@ -22220,7 +22173,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "stop",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "stop video",
 							"parameter_type" : 2
 						}
@@ -22275,7 +22227,6 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "cmd_list",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "path_video",
 							"parameter_type" : 3
 						}
@@ -22394,7 +22345,6 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "path_slide1[2]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "path_slide1",
 							"parameter_type" : 3
 						}
@@ -22478,7 +22428,6 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "path_slide1[1]",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "path_slide1",
 							"parameter_type" : 3
 						}
@@ -22582,7 +22531,6 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "cmd_descriptor",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "path_video",
 							"parameter_type" : 3
 						}
@@ -22661,7 +22609,6 @@
 							"parameter_info" : "MidiIn: velocity (currently unused)",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "midi_vel",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "midi_vel",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -22692,7 +22639,6 @@
 							"parameter_info" : "MidiIn: mdinote number",
 							"parameter_linknames" : 1,
 							"parameter_longname" : "midi_note",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "midi_note",
 							"parameter_type" : 1,
 							"parameter_unitstyle" : 0
@@ -22710,15 +22656,14 @@
 					"id" : "obj-237",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 5,
-					"outlettype" : [ "dictionary", "", "", "", "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "dictionary", "", "", "" ],
 					"patching_rect" : [ 1919.0, 152.0, 95.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "dict",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "dict",
 							"parameter_type" : 3
 						}
@@ -22727,7 +22672,6 @@
 ,
 					"saved_object_attributes" : 					{
 						"embed" : 0,
-						"legacy" : 1,
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0
 					}
@@ -23010,7 +22954,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "loop_mode_CC",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "loop_mode_CC",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -23090,8 +23033,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -26295,7 +26238,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "fade_smart",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "fade_smart",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -26354,8 +26296,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -26847,7 +26789,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "windowing_stop",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "windowing_stop",
 							"parameter_type" : 2
 						}
@@ -26921,7 +26862,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "set_sync",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "set_sync",
 							"parameter_type" : 2
 						}
@@ -27138,8 +27078,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -27589,8 +27529,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -28286,7 +28226,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "fullscreen_toggle",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "fullscreen_toggle",
 							"parameter_type" : 2
 						}
@@ -28347,8 +28286,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -28653,7 +28592,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "int" ],
 									"patching_rect" : [ 613.5, 663.0, 49.0, 22.0 ],
 									"text" : "random"
 								}
@@ -28801,8 +28740,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -28926,7 +28865,7 @@
 													"maxclass" : "newobj",
 													"numinlets" : 2,
 													"numoutlets" : 1,
-													"outlettype" : [ "" ],
+													"outlettype" : [ "int" ],
 													"patching_rect" : [ 344.0, 375.0, 49.0, 22.0 ],
 													"text" : "random"
 												}
@@ -31140,7 +31079,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "slide2_CC",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "slide2_CC",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -31212,8 +31150,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -31533,7 +31471,6 @@
 							"parameter_invisible" : 2,
 							"parameter_longname" : "reload_2",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "reload_2",
 							"parameter_type" : 2
 						}
@@ -31569,7 +31506,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "load_slide_2",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "load_slide_2",
 							"parameter_type" : 2
 						}
@@ -31656,7 +31592,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "path_slide2",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "path_slide2",
 							"parameter_type" : 3
 						}
@@ -31894,8 +31829,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -32221,8 +32156,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -32292,8 +32227,8 @@
 										"fileversion" : 1,
 										"appversion" : 										{
 											"major" : 8,
-											"minor" : 6,
-											"revision" : 2,
+											"minor" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -33030,7 +32965,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 719.0, 738.0, 85.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -33050,7 +32985,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 613.0, 738.0, 85.0, 22.0 ],
-					"restore" : [ 1.0 ],
+					"restore" : [ 0.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -33078,7 +33013,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "audio_toggle",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "audio_toggle",
 							"parameter_type" : 2
 						}
@@ -33132,7 +33066,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "invert_Y",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "invert_Y",
 							"parameter_type" : 2
 						}
@@ -33162,7 +33095,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "invert_X",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "invert_X",
 							"parameter_type" : 2
 						}
@@ -33185,8 +33117,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 6,
-							"revision" : 2,
+							"minor" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -33932,7 +33864,6 @@
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "slide1_CC",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "slide1_CC",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 0
@@ -33999,7 +33930,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "reload_1",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "reload_1",
 							"parameter_type" : 2
 						}
@@ -34035,7 +33965,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "load_slide_1",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "load_slide_1",
 							"parameter_type" : 2
 						}
@@ -34123,7 +34052,6 @@
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "path_slide1",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "path_slide1",
 							"parameter_type" : 3
 						}
@@ -34311,7 +34239,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 275.0, 447.0, 100.0, 22.0 ],
-					"restore" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/14m-darkness.mp4\"" ],
+					"restore" : [ "\"EXTERN:/🎧 Live Sets/🎧 Atlas Sets/🎧 MPUP sets/6Memos_2Rapidità_ICDS.mp4\"" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0
@@ -34361,13 +34289,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-30",
-					"linecount" : 9,
+					"linecount" : 7,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 300.0, 517.0, 82.0, 129.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/14m-darkness.mp4\""
+					"patching_rect" : [ 300.0, 517.0, 82.0, 103.0 ],
+					"text" : "\"EXTERN:/🎧 Live Sets/🎧 Atlas Sets/🎧 MPUP sets/6Memos_2Rapidità_ICDS.mp4\""
 				}
 
 			}
@@ -34408,21 +34336,19 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 400.000011920928955, 517.333348751068115, 208.0, 61.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 2,
 					"presentation_rect" : [ 292.0, 58.833333015441895, 344.000010251998901, 24.000000715255737 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_linknames" : 1,
 							"parameter_longname" : "path_video",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "path_video",
 							"parameter_type" : 3
 						}
 
 					}
 ,
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/14m-darkness.mp4\"",
+					"text" : "\"EXTERN:/🎧 Live Sets/🎧 Atlas Sets/🎧 MPUP sets/6Memos_2Rapidità_ICDS.mp4\"",
 					"textcolor" : [ 0.019607843137255, 0.019607843137255, 0.019607843137255, 1.0 ],
 					"varname" : "path_video"
 				}
@@ -34446,7 +34372,6 @@
 							"parameter_invisible" : 2,
 							"parameter_longname" : "live.text[1]",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2
 						}
@@ -34489,7 +34414,6 @@
 							"parameter_invisible" : 1,
 							"parameter_longname" : "live.text",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "live.text",
 							"parameter_type" : 2
 						}
@@ -34515,6 +34439,7 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "settings.json",
 					"color" : [ 0.886274509803922, 0.0, 1.0, 1.0 ],
 					"id" : "obj-9",
 					"maxclass" : "newobj",
@@ -34526,7 +34451,6 @@
 						"valueof" : 						{
 							"parameter_invisible" : 1,
 							"parameter_longname" : "settings",
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "settings",
 							"parameter_type" : 3
 						}
@@ -34534,7 +34458,7 @@
 					}
 ,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 100, 159, 454, 287 ],
+						"client_rect" : [ 100, 159, 1207, 617 ],
 						"parameter_enable" : 1,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -34637,8 +34561,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 416.162175476551056, 638.378349840641022, 300.0, 35.0 ],
-					"text" : "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/9m-clean-lamps.mp4\""
+					"patching_rect" : [ 416.162175476551056, 638.378349840641022, 300.0, 36.0 ],
+					"text" : "\"EXTERN:/🎧 Live Sets/🎧 Atlas Sets/🎧 MPUP sets/6Memos_2Rapidità_ICDS.mp4\""
 				}
 
 			}
@@ -38832,35 +38756,35 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_PATH_.maxpat",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "casuistic.maxpat",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "clipname.maxpat",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "download-sheet.maxpat",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/download-sheet",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/download-sheet",
 				"patcherrelativepath" : "../../download-sheet",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "logdial.maxpat",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -38871,21 +38795,21 @@
 			}
 , 			{
 				"name" : "settings.json",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/data",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/tesser_video/data",
 				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "standal1.maxpat",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/tesser_video/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "unescape.js",
-				"bootpath" : "/Volumes/EXTERN/Max PROJECTS/tesserakt/tesser_video/tesser_video/code",
+				"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/tesser_video/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1

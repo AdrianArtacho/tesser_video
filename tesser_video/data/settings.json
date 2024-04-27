@@ -5,11 +5,11 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"video path" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/videos/14m-darkness.mp4\"" ],
+					"video path" : [ "\"EXTERN:/🎧 Live Sets/🎧 Atlas Sets/🎧 MPUP sets/6Memos_2Rapidità_ICDS.mp4\"" ],
 					"slide path" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"" ],
 					"slide1 CC" : [ 88.0 ],
-					"invert X" : [ 1.0 ],
-					"invert Y" : [ 1.0 ],
+					"invert X" : [ 0.0 ],
+					"invert Y" : [ 0.0 ],
 					"audio toggle" : [ 0.0 ],
 					"key shortcuts" : [ 0.0 ],
 					"slide path[1]" : [ "\"Macintosh HD:/Users/adrian/Desktop/Mit Pauken und Palaeste/MPUP/slides/bubs/mpup_bulbs14.png\"" ],

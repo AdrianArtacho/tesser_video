@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 6,
-			"revision" : 2,
+			"minor" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -155,7 +155,6 @@
 							"parameter_linknames" : 1,
 							"parameter_longname" : "m4l/standalone",
 							"parameter_mmax" : 1,
-							"parameter_modmode" : 0,
 							"parameter_shortname" : "m4l/standalone",
 							"parameter_type" : 2
 						}
@@ -283,6 +282,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 438.0, 91.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 282.0, 28.0, 150.0, 20.0 ],
 					"text" : "= as standalone"
 				}
 
@@ -295,6 +296,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 90.0, 29.5, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 244.0, 27.0, 29.5, 22.0 ],
 					"text" : "2"
 				}
 
@@ -306,6 +309,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 438.0, 61.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 282.0, 5.0, 150.0, 20.0 ],
 					"text" : "= as M4L device"
 				}
 
@@ -318,6 +323,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 400.0, 60.0, 29.5, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 244.0, 4.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
