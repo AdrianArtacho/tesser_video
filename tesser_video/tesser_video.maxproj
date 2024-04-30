@@ -2,7 +2,7 @@
 	"name" : "tesser_video",
 	"version" : 1,
 	"creationdate" : 3779766031,
-	"modificationdate" : 3797043495,
+	"modificationdate" : 3797078543,
 	"viewrect" : [ 0.0, 366.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -90,7 +90,13 @@
 ,
 		"externals" : 		{
 			"mxj.mxo" : 			{
-				"kind" : "object"
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"jit.movie~.mxe" : 			{
+				"kind" : "object",
+				"local" : 1
 			}
 
 		}
