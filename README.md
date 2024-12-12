@@ -141,3 +141,4 @@ master fade `CC90` that fades in/out smartly.
 - Dimensions of the image? Probably not, unless it is enforced by my patch!
 - Rotate image?
 - Manipulate video image: colors, water-fx distortion, bw, caleidoscope... etc.
+- Send a working version to that Woman from MPUP?
