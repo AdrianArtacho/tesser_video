@@ -2,8 +2,8 @@
 	"name" : "tesser_video",
 	"version" : 1,
 	"creationdate" : 3779766031,
-	"modificationdate" : 3797078543,
-	"viewrect" : [ 0.0, 366.0, 300.0, 500.0 ],
+	"modificationdate" : 3828773621,
+	"viewrect" : [ 0.0, 296.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -31,16 +31,6 @@
 				"local" : 1
 			}
 ,
-			"download-sheet.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "/Volumes/EXTERN/PROJECTS/Max PROJECTS/tesserakt/tesser_video/download-sheet",
-					"projectrelativepath" : "../download-sheet"
-				}
-
-			}
-,
 			"logdial.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -49,6 +39,16 @@
 			"standal1.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"download-sheet.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/PROJECTS/MAXMSP/tesser_video/download-sheet",
+					"projectrelativepath" : "../download-sheet"
+				}
+
 			}
 ,
 			"frame_delay.maxpat" : 			{
@@ -71,7 +71,12 @@
 ,
 			"wavy.mp4" : 			{
 				"kind" : "moviefile",
-				"local" : 1
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/PROJECTS/MAXMSP/tesser_video/download-sheet",
+					"projectrelativepath" : "../download-sheet"
+				}
+
 			}
 
 		}
@@ -85,6 +90,10 @@
 		}
 ,
 		"data" : 		{
+			"settings.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
 
 		}
 ,
