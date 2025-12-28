@@ -2,7 +2,7 @@
 
 This device does video and image operations, has parameters accessible via midi, and paths and other configurations via clip names. 
 
-![interface](https://bitbucket.org/AdrianArtacho/public_tesser_video/raw/HEAD/images/interface.png)
+![interface](img/interface.png)
 
 ---
 
