@@ -294,3 +294,7 @@ You may use the maxpatch as a standalone as well. For this case scenario, you ca
 ![standalone](https://bitbucket.org/AdrianArtacho/public_tesser_video/raw/HEAD/images/standalone.png)
 
 Midinotes 1<>127 will launch the commands stored in the `.csv`.
+
+---
+
+## [To-Do](todo.md)
