@@ -1,6 +1,12 @@
 [submodule "download-sheet"]
 	path = download-sheet
-	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/download-sheet.git
+url=https://github.com/AdrianArtacho/download-sheet.git
 [submodule "tesser_osc"]
 	path = tesser_osc
 url=https://github.com/AdrianArtacho/tesser_osc.git
+<<<<<<< HEAD
+=======
+[submodule "public"]
+	path = public
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/public_tesser_video.git
+>>>>>>> 0b1feb750f7017caee3c75beb5aa2231eaff4056
