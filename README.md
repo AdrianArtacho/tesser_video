@@ -220,7 +220,7 @@ Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) o
 > {ID} loop 16935 19195
 > ```
 > 
-> ![](https://bitbucket.org/AdrianArtacho/public_tesser_video/raw/HEAD/images/loop-logic.png)
+> ![img/loop-logic](img/loop-logic.png)
 > 
 > ---
 > 
@@ -291,7 +291,7 @@ By using the string `_PATH_` in the path of the media you want to use, you can h
 
 You may use the maxpatch as a standalone as well. For this case scenario, you can control it remotely sending OSC data to the device (IP/port on the right hand side of the device). 
 
-![standalone](https://bitbucket.org/AdrianArtacho/public_tesser_video/raw/HEAD/images/standalone.png)
+![standalone](img/standalone.png)
 
 Midinotes 1<>127 will launch the commands stored in the `.csv`.
 
