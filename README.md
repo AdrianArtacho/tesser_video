@@ -196,7 +196,7 @@ Using the [download-sheet](https://bitbucket.org/AdrianArtacho/download-sheet) o
 > 
 > Here are some of the pseudocode possibilities...
 > 
-> ![](https://bitbucket.org/AdrianArtacho/public_tesser_video/raw/HEAD/images/frame-examples.png)
+> ![img/frame-examples](img/frame-examples.png)
 > 
 > ...
 > 
